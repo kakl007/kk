@@ -2,6 +2,13 @@ name: Hailuo Price Monitor
 
 on:
   workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - 'fetch_prices.py'
+      - 'requirements.txt'
+      - '.github/workflows/hailuo-price.yml'
+      - 'TRIGGER'
   schedule:
     - cron: '45 23 * * *' # 07:45 Asia/Shanghai
 
