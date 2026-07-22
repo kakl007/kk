@@ -1,0 +1,236 @@
+{
+  "fetched_at": "2026-07-23T07:55:57+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
+  "target_ids": [
+    737,
+    743,
+    745,
+    753,
+    778,
+    789,
+    804,
+    889,
+    2183,
+    2232,
+    2297,
+    2416
+  ],
+  "status": "ok",
+  "items": [
+    {
+      "id": 737,
+      "target_name": "PS5 死亡搁浅2",
+      "store_name": "PS5 死亡搁浅2",
+      "price": 184.0,
+      "baseline": 234,
+      "cate_id": "3",
+      "raw": {
+        "id": 737,
+        "store_name": "PS5 死亡搁浅2",
+        "price": 184,
+        "cate_id": "3"
+      },
+      "known_low": 184.0,
+      "cumulative_change": 50.0
+    },
+    {
+      "id": 743,
+      "target_name": "PS5 GT赛车7",
+      "store_name": "PS5 GT赛车7",
+      "price": 224.0,
+      "baseline": 246,
+      "cate_id": "3",
+      "raw": {
+        "id": 743,
+        "store_name": "PS5 GT赛车7",
+        "price": 224,
+        "cate_id": "3"
+      },
+      "known_low": 224.0,
+      "cumulative_change": 22.0
+    },
+    {
+      "id": 745,
+      "target_name": "PS5 星刃/剑星",
+      "store_name": "PS5 星刃 剑星",
+      "price": 184.0,
+      "baseline": 185,
+      "cate_id": "3",
+      "raw": {
+        "id": 745,
+        "store_name": "PS5 星刃 剑星",
+        "price": 184,
+        "cate_id": "3"
+      },
+      "known_low": 184.0,
+      "cumulative_change": 1.0
+    },
+    {
+      "id": 753,
+      "target_name": "PS5 刺客信条 影",
+      "store_name": "PS5 刺客信条 影",
+      "price": 192.0,
+      "baseline": 199,
+      "cate_id": "3",
+      "raw": {
+        "id": 753,
+        "store_name": "PS5 刺客信条 影",
+        "price": 192,
+        "cate_id": "3"
+      },
+      "known_low": 192.0,
+      "cumulative_change": 7.0
+    },
+    {
+      "id": 778,
+      "target_name": "PS5 龙之信条2",
+      "store_name": "PS5 龙之信条2",
+      "price": 124.0,
+      "baseline": 138,
+      "cate_id": "3",
+      "raw": {
+        "id": 778,
+        "store_name": "PS5 龙之信条2",
+        "price": 124,
+        "cate_id": "3"
+      },
+      "known_low": 124.0,
+      "cumulative_change": 14.0
+    },
+    {
+      "id": 789,
+      "target_name": "PS5 巫师3年度版",
+      "store_name": "PS5 巫师3年度版",
+      "price": 135.0,
+      "baseline": 145,
+      "cate_id": "3",
+      "raw": {
+        "id": 789,
+        "store_name": "PS5 巫师3年度版",
+        "price": 135,
+        "cate_id": "3"
+      },
+      "known_low": 135.0,
+      "cumulative_change": 10.0
+    },
+    {
+      "id": 804,
+      "target_name": "PS5 阿凡达",
+      "store_name": "PS5 阿凡达",
+      "price": 79.0,
+      "baseline": 110,
+      "cate_id": "3",
+      "raw": {
+        "id": 804,
+        "store_name": "PS5 阿凡达",
+        "price": 79,
+        "cate_id": "3"
+      },
+      "known_low": 79.0,
+      "cumulative_change": 31.0
+    },
+    {
+      "id": 889,
+      "target_name": "PS5 忍龙4",
+      "store_name": "PS5 忍龙4",
+      "price": 242.0,
+      "baseline": 240,
+      "cate_id": "3",
+      "raw": {
+        "id": 889,
+        "store_name": "PS5 忍龙4",
+        "price": 242,
+        "cate_id": "3"
+      },
+      "known_low": 242.0,
+      "cumulative_change": -2.0
+    },
+    {
+      "id": 2183,
+      "target_name": "PS5 红色沙漠",
+      "store_name": "PS5 红色沙漠",
+      "price": 304.0,
+      "baseline": 454,
+      "cate_id": "3",
+      "raw": {
+        "id": 2183,
+        "store_name": "PS5 红色沙漠",
+        "price": 304,
+        "cate_id": "3"
+      },
+      "known_low": 304.0,
+      "cumulative_change": 150.0
+    },
+    {
+      "id": 2232,
+      "target_name": "PS5 卡普空大作9/安魂曲",
+      "store_name": "PS5 卡普空大作9 安魂曲（特）",
+      "price": 305.0,
+      "baseline": 305,
+      "cate_id": "3",
+      "raw": {
+        "id": 2232,
+        "store_name": "PS5 卡普空大作9 安魂曲（特）",
+        "price": 305,
+        "cate_id": "3"
+      },
+      "known_low": 305.0,
+      "cumulative_change": 0.0
+    },
+    {
+      "id": 2297,
+      "target_name": "NS2 马里奥兄弟惊奇",
+      "store_name": "NS2 马里奥兄弟惊奇 同游铃铃公园",
+      "price": 294.0,
+      "baseline": 297,
+      "cate_id": "41",
+      "raw": {
+        "id": 2297,
+        "store_name": "NS2 马里奥兄弟惊奇 同游铃铃公园",
+        "price": 294,
+        "cate_id": "41"
+      },
+      "known_low": 294.0,
+      "cumulative_change": 3.0
+    },
+    {
+      "id": 2416,
+      "target_name": "PS5 幻裂奇境",
+      "store_name": "PS5 幻裂奇境",
+      "price": 189.0,
+      "baseline": 166,
+      "cate_id": "3",
+      "raw": {
+        "id": 2416,
+        "store_name": "PS5 幻裂奇境",
+        "price": 189,
+        "cate_id": "3"
+      },
+      "known_low": 189.0,
+      "cumulative_change": -23.0
+    }
+  ],
+  "missing_ids": [],
+  "fetch_meta": {
+    "pages": [
+      {
+        "page": 1,
+        "count": 100
+      },
+      {
+        "page": 2,
+        "count": 100
+      },
+      {
+        "page": 3,
+        "count": 100
+      },
+      {
+        "page": 4,
+        "count": 100
+      }
+    ],
+    "total_unique_ids": 400
+  }
+}
