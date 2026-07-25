@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T09:11:47+08:00",
+  "fetched_at": "2026-07-25T09:12:07+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -102,17 +102,17 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 135.0,
+      "price": 129.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 135,
+        "price": 129,
         "cate_id": "3"
       },
-      "known_low": 135.0,
-      "cumulative_change": 10.0
+      "known_low": 129.0,
+      "cumulative_change": 16.0
     },
     {
       "id": 804,
@@ -182,17 +182,17 @@
       "id": 2297,
       "target_name": "NS2 马里奥兄弟惊奇",
       "store_name": "NS2 马里奥兄弟惊奇 同游铃铃公园",
-      "price": 294.0,
+      "price": 290.0,
       "baseline": 297,
       "cate_id": "41",
       "raw": {
         "id": 2297,
         "store_name": "NS2 马里奥兄弟惊奇 同游铃铃公园",
-        "price": 294,
+        "price": 290,
         "cate_id": "41"
       },
-      "known_low": 294.0,
-      "cumulative_change": 3.0
+      "known_low": 290.0,
+      "cumulative_change": 7.0
     },
     {
       "id": 2416,
