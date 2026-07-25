@@ -10,7 +10,11 @@ on:
       - '.github/workflows/hailuo-price.yml'
       - 'TRIGGER'
   schedule:
-    - cron: '45 23 * * *' # 07:45 Asia/Shanghai
+    # GitHub scheduled workflows can be delayed. Use three earlier snapshots so
+    # at least one current-day result is normally committed before the 08:00 report.
+    - cron: '17 20 * * *' # 04:17 Asia/Shanghai
+    - cron: '47 21 * * *' # 05:47 Asia/Shanghai
+    - cron: '47 22 * * *' # 06:47 Asia/Shanghai
 
 permissions:
   contents: write
