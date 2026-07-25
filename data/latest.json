@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T13:51:07+08:00",
+  "fetched_at": "2026-07-26T05:07:57+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -54,17 +54,17 @@
       "id": 745,
       "target_name": "PS5 星刃/剑星",
       "store_name": "PS5 星刃 剑星",
-      "price": 184.0,
+      "price": 178.0,
       "baseline": 185,
       "cate_id": "3",
       "raw": {
         "id": 745,
         "store_name": "PS5 星刃 剑星",
-        "price": 184,
+        "price": 178,
         "cate_id": "3"
       },
-      "known_low": 184.0,
-      "cumulative_change": 1.0
+      "known_low": 178.0,
+      "cumulative_change": 7.0
     },
     {
       "id": 753,
@@ -150,17 +150,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 304.0,
+      "price": 299.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 304,
+        "price": 299,
         "cate_id": "3"
       },
-      "known_low": 304.0,
-      "cumulative_change": 150.0
+      "known_low": 299.0,
+      "cumulative_change": 155.0
     },
     {
       "id": 2232,
