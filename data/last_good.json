@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T07:41:33+08:00",
+  "fetched_at": "2026-07-27T05:10:29+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -166,17 +166,17 @@
       "id": 2232,
       "target_name": "PS5 卡普空大作9/安魂曲",
       "store_name": "PS5 卡普空大作9 安魂曲（特）",
-      "price": 305.0,
+      "price": 300.0,
       "baseline": 305,
       "cate_id": "3",
       "raw": {
         "id": 2232,
         "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 305,
+        "price": 300,
         "cate_id": "3"
       },
-      "known_low": 305.0,
-      "cumulative_change": 0.0
+      "known_low": 300.0,
+      "cumulative_change": 5.0
     },
     {
       "id": 2297,
