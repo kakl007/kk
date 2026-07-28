@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T07:43:15+08:00",
+  "fetched_at": "2026-07-29T05:21:54+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -54,33 +54,33 @@
       "id": 745,
       "target_name": "PS5 星刃/剑星",
       "store_name": "PS5 星刃 剑星",
-      "price": 178.0,
+      "price": 174.0,
       "baseline": 185,
       "cate_id": "3",
       "raw": {
         "id": 745,
         "store_name": "PS5 星刃 剑星",
-        "price": 178,
+        "price": 174,
         "cate_id": "3"
       },
-      "known_low": 178.0,
-      "cumulative_change": 7.0
+      "known_low": 174.0,
+      "cumulative_change": 11.0
     },
     {
       "id": 753,
       "target_name": "PS5 刺客信条 影",
       "store_name": "PS5 刺客信条 影",
-      "price": 192.0,
+      "price": 188.0,
       "baseline": 199,
       "cate_id": "3",
       "raw": {
         "id": 753,
         "store_name": "PS5 刺客信条 影",
-        "price": 192,
+        "price": 188,
         "cate_id": "3"
       },
-      "known_low": 192.0,
-      "cumulative_change": 7.0
+      "known_low": 188.0,
+      "cumulative_change": 11.0
     },
     {
       "id": 778,
@@ -150,33 +150,33 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 299.0,
+      "price": 294.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 299,
+        "price": 294,
         "cate_id": "3"
       },
-      "known_low": 299.0,
-      "cumulative_change": 155.0
+      "known_low": 294.0,
+      "cumulative_change": 160.0
     },
     {
       "id": 2232,
       "target_name": "PS5 卡普空大作9/安魂曲",
       "store_name": "PS5 卡普空大作9 安魂曲（特）",
-      "price": 300.0,
+      "price": 295.0,
       "baseline": 305,
       "cate_id": "3",
       "raw": {
         "id": 2232,
         "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 300,
+        "price": 295,
         "cate_id": "3"
       },
-      "known_low": 300.0,
-      "cumulative_change": 5.0
+      "known_low": 295.0,
+      "cumulative_change": 10.0
     },
     {
       "id": 2297,
