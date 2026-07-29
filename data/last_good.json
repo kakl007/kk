@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T07:37:54+08:00",
+  "fetched_at": "2026-07-30T05:11:39+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -38,17 +38,17 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 224.0,
+      "price": 220.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 224,
+        "price": 220,
         "cate_id": "3"
       },
-      "known_low": 224.0,
-      "cumulative_change": 22.0
+      "known_low": 220.0,
+      "cumulative_change": 26.0
     },
     {
       "id": 745,
@@ -198,17 +198,17 @@
       "id": 2416,
       "target_name": "PS5 幻裂奇境",
       "store_name": "PS5 幻裂奇境",
-      "price": 184.0,
+      "price": 175.0,
       "baseline": 166,
       "cate_id": "3",
       "raw": {
         "id": 2416,
         "store_name": "PS5 幻裂奇境",
-        "price": 184,
+        "price": 175,
         "cate_id": "3"
       },
-      "known_low": 184.0,
-      "cumulative_change": -18.0
+      "known_low": 175.0,
+      "cumulative_change": -9.0
     }
   ],
   "missing_ids": [],
