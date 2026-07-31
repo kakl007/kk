@@ -1,7 +1,7 @@
 {
   "catalog_count": 2113,
   "matches": {
-    "真三国无双起源 PS5": [
+    "真三国无双起源精确": [
       {
         "id": 2157,
         "store_name": "NS2 真三国无双 起源",
@@ -9,7 +9,263 @@
         "cate_id": "41"
       }
     ],
-    "鼠探 NS2": [
+    "无双候选": [
+      {
+        "id": 242,
+        "store_name": "PS4 大蛇无双2 终极版",
+        "price": 218,
+        "cate_id": "2"
+      },
+      {
+        "id": 341,
+        "store_name": "PS4 真三国无双7",
+        "price": 139,
+        "cate_id": "2"
+      },
+      {
+        "id": 344,
+        "store_name": "PS4 无双群星大会串",
+        "price": 89,
+        "cate_id": "2"
+      },
+      {
+        "id": 348,
+        "store_name": "PS4 海贼无双4",
+        "price": 135,
+        "cate_id": "2"
+      },
+      {
+        "id": 400,
+        "store_name": "PS4 战国无双4 帝国",
+        "price": 180,
+        "cate_id": "2"
+      },
+      {
+        "id": 444,
+        "store_name": "PS4 真三国无双8",
+        "price": 90,
+        "cate_id": "2"
+      },
+      {
+        "id": 480,
+        "store_name": "PS4 大蛇无双3",
+        "price": 81,
+        "cate_id": "2"
+      },
+      {
+        "id": 519,
+        "store_name": "PS4 战国无双4",
+        "price": 105,
+        "cate_id": "2"
+      },
+      {
+        "id": 552,
+        "store_name": "PS4 战国无双4-2",
+        "price": 95,
+        "cate_id": "2"
+      },
+      {
+        "id": 594,
+        "store_name": "PS4 真三国无双 英杰传",
+        "price": 99,
+        "cate_id": "2"
+      },
+      {
+        "id": 601,
+        "store_name": "PS4 真三国无双7 帝国",
+        "price": 94,
+        "cate_id": "2"
+      },
+      {
+        "id": 605,
+        "store_name": "PS4 大蛇无双3 终极版",
+        "price": 285,
+        "cate_id": "2"
+      },
+      {
+        "id": 606,
+        "store_name": "PS4 海贼无双3",
+        "price": 35,
+        "cate_id": "2"
+      },
+      {
+        "id": 611,
+        "store_name": "PS4 真三国无双8 帝国",
+        "price": 165,
+        "cate_id": "2"
+      },
+      {
+        "id": 644,
+        "store_name": "PS4 战国无双5",
+        "price": 160,
+        "cate_id": "2"
+      },
+      {
+        "id": 665,
+        "store_name": "PS4 战国无双 真田丸",
+        "price": 275,
+        "cate_id": "2"
+      },
+      {
+        "id": 769,
+        "store_name": "PS5 三国无双 起源",
+        "price": 380,
+        "cate_id": "3"
+      },
+      {
+        "id": 838,
+        "store_name": "PS5 真三国无双8 帝国",
+        "price": 194,
+        "cate_id": "3"
+      },
+      {
+        "id": 1050,
+        "store_name": "NS 塞尔达无双",
+        "price": 224,
+        "cate_id": "1"
+      },
+      {
+        "id": 1104,
+        "store_name": "NS 无双大蛇3",
+        "price": 89,
+        "cate_id": "1"
+      },
+      {
+        "id": 1112,
+        "store_name": "NS 真三国无双7",
+        "price": 219,
+        "cate_id": "1"
+      },
+      {
+        "id": 1193,
+        "store_name": "NS 战国无双5",
+        "price": 119,
+        "cate_id": "1"
+      },
+      {
+        "id": 1261,
+        "store_name": "NS 海贼无双3",
+        "price": 88,
+        "cate_id": "1"
+      },
+      {
+        "id": 1427,
+        "store_name": "NS 海贼无双4",
+        "price": 99,
+        "cate_id": "1"
+      },
+      {
+        "id": 1467,
+        "store_name": "NS 三国无双8",
+        "price": 209,
+        "cate_id": "1"
+      },
+      {
+        "id": 1608,
+        "store_name": "NS 风花雪月无双",
+        "price": 99,
+        "cate_id": "1"
+      },
+      {
+        "id": 1726,
+        "store_name": "NS 火焰之纹章无双",
+        "price": 94,
+        "cate_id": "1"
+      },
+      {
+        "id": 2088,
+        "store_name": "NS2 塞尔达无双 封印战记",
+        "price": 275,
+        "cate_id": "41"
+      },
+      {
+        "id": 2157,
+        "store_name": "NS2 真三国无双 起源",
+        "price": 309,
+        "cate_id": "41"
+      },
+      {
+        "id": 2355,
+        "store_name": "NS 无双大蛇3 终极版",
+        "price": 214,
+        "cate_id": "1"
+      },
+      {
+        "id": 2395,
+        "store_name": "NS 战国无双 真田丸",
+        "price": 249,
+        "cate_id": "1"
+      },
+      {
+        "id": 2461,
+        "store_name": "NS2 真三国无双2 with 猛将传（订购）",
+        "price": 239,
+        "cate_id": "41"
+      },
+      {
+        "id": 2462,
+        "store_name": "PS5 真三国无双2 with 猛将传（订购）",
+        "price": 239,
+        "cate_id": "3"
+      }
+    ],
+    "起源候选": [
+      {
+        "id": 97,
+        "store_name": "PS4 刺客信条起源",
+        "price": 94,
+        "cate_id": "2"
+      },
+      {
+        "id": 304,
+        "store_name": "PS4 最终幻想起源",
+        "price": 60,
+        "cate_id": "2"
+      },
+      {
+        "id": 374,
+        "store_name": "PS4 伊苏起源",
+        "price": 225,
+        "cate_id": "2"
+      },
+      {
+        "id": 769,
+        "store_name": "PS5 三国无双 起源",
+        "price": 380,
+        "cate_id": "3"
+      },
+      {
+        "id": 819,
+        "store_name": "PS5 最终幻想 起源",
+        "price": 69,
+        "cate_id": "3"
+      },
+      {
+        "id": 1131,
+        "store_name": "NS 猎天使魔女起源",
+        "price": 149,
+        "cate_id": "1"
+      },
+      {
+        "id": 1325,
+        "store_name": "NS 伊苏 起源",
+        "price": 189,
+        "cate_id": "1"
+      },
+      {
+        "id": 1485,
+        "store_name": "NS 高达G世纪起源",
+        "price": 299,
+        "cate_id": "1"
+      },
+      {
+        "id": 2157,
+        "store_name": "NS2 真三国无双 起源",
+        "price": 309,
+        "cate_id": "41"
+      }
+    ],
+    "鼠探": [
       {
         "id": 2360,
         "store_name": "PS5 鼠探 私家侦探",
@@ -23,7 +279,7 @@
         "cate_id": "41"
       }
     ],
-    "毁灭战士暗黑时代 PS5": [
+    "毁灭战士暗黑时代": [
       {
         "id": 814,
         "store_name": "PS5 毁灭战士 暗黑时代",
