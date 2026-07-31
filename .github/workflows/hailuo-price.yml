@@ -20,9 +20,11 @@ on:
 permissions:
   contents: write
 
+# A newer manual/config trigger supersedes an older in-flight snapshot.
+# This prevents the older run from trying to push from a stale master ref.
 concurrency:
   group: hailuo-price-monitor
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   fetch:
@@ -30,6 +32,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -46,13 +50,39 @@ jobs:
       - name: Commit latest data
         if: always()
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/latest.json data/last_good.json data/history.json 2>/dev/null || true
-          if ! git diff --cached --quiet; then
-            git commit -m "Update Hailuo prices $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            git push
+
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
           fi
+
+          git commit -m "Update Hailuo prices $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+
+          # master may advance while this job is fetching. Rebase and retry rather
+          # than failing with a non-fast-forward / fetch-first rejection.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:master; then
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 3 ]; then
+              echo "::error::Unable to push price data after 3 attempts."
+              exit 1
+            fi
+
+            echo "Remote master advanced; syncing before retry $((attempt + 1))/3."
+            git fetch origin master
+            if ! git rebase origin/master; then
+              git rebase --abort || true
+              echo "::error::Automatic rebase failed; refusing to overwrite remote data."
+              exit 1
+            fi
+            sleep $((attempt * 2))
+          done
 
       - name: Fail workflow if fetch failed
         if: steps.fetch.outcome == 'failure'
