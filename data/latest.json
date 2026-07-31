@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-07-31T11:32:14+08:00",
+  "fetched_at": "2026-07-31T11:35:07+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
     737,
     743,
     745,
-    753,
+    769,
     778,
     789,
-    804,
+    814,
     889,
     2183,
     2232,
-    2297,
+    2361,
     2416
   ],
   "status": "ok",
@@ -67,20 +67,20 @@
       "cumulative_change": 16.0
     },
     {
-      "id": 753,
-      "target_name": "PS5 刺客信条 影",
-      "store_name": "PS5 刺客信条 影",
-      "price": 184.0,
-      "baseline": 199,
+      "id": 769,
+      "target_name": "PS5 真三国无双 起源",
+      "store_name": "PS5 三国无双 起源",
+      "price": 380.0,
+      "baseline": 380,
       "cate_id": "3",
       "raw": {
-        "id": 753,
-        "store_name": "PS5 刺客信条 影",
-        "price": 184,
+        "id": 769,
+        "store_name": "PS5 三国无双 起源",
+        "price": 380,
         "cate_id": "3"
       },
-      "known_low": 184.0,
-      "cumulative_change": 15.0
+      "known_low": 380.0,
+      "cumulative_change": 0.0
     },
     {
       "id": 778,
@@ -115,20 +115,20 @@
       "cumulative_change": 16.0
     },
     {
-      "id": 804,
-      "target_name": "PS5 阿凡达",
-      "store_name": "PS5 阿凡达",
-      "price": 79.0,
-      "baseline": 110,
+      "id": 814,
+      "target_name": "PS5 毁灭战士 暗黑时代",
+      "store_name": "PS5 毁灭战士 暗黑时代",
+      "price": 189.0,
+      "baseline": 189,
       "cate_id": "3",
       "raw": {
-        "id": 804,
-        "store_name": "PS5 阿凡达",
-        "price": 79,
+        "id": 814,
+        "store_name": "PS5 毁灭战士 暗黑时代",
+        "price": 189,
         "cate_id": "3"
       },
-      "known_low": 79.0,
-      "cumulative_change": 31.0
+      "known_low": 189.0,
+      "cumulative_change": 0.0
     },
     {
       "id": 889,
@@ -179,20 +179,20 @@
       "cumulative_change": 10.0
     },
     {
-      "id": 2297,
-      "target_name": "NS2 马里奥兄弟惊奇",
-      "store_name": "NS2 马里奥兄弟惊奇 同游铃铃公园",
-      "price": 284.0,
-      "baseline": 297,
+      "id": 2361,
+      "target_name": "NS2 鼠探 私家侦探",
+      "store_name": "NS2 鼠探 私家侦探",
+      "price": 198.0,
+      "baseline": 198,
       "cate_id": "41",
       "raw": {
-        "id": 2297,
-        "store_name": "NS2 马里奥兄弟惊奇 同游铃铃公园",
-        "price": 284,
+        "id": 2361,
+        "store_name": "NS2 鼠探 私家侦探",
+        "price": 198,
         "cate_id": "41"
       },
-      "known_low": 284.0,
-      "cumulative_change": 13.0
+      "known_low": 198.0,
+      "cumulative_change": 0.0
     },
     {
       "id": 2416,
@@ -229,8 +229,32 @@
       {
         "page": 4,
         "count": 100
+      },
+      {
+        "page": 5,
+        "count": 100
+      },
+      {
+        "page": 6,
+        "count": 100
+      },
+      {
+        "page": 7,
+        "count": 100
+      },
+      {
+        "page": 8,
+        "count": 100
+      },
+      {
+        "page": 9,
+        "count": 100
+      },
+      {
+        "page": 10,
+        "count": 100
       }
     ],
-    "total_unique_ids": 400
+    "total_unique_ids": 1000
   }
 }
