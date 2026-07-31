@@ -5,9 +5,11 @@ from pathlib import Path
 from fetch_prices import API, extract_products, fetch_text, parse_id
 
 KEYWORDS = {
-    "真三国无双起源 PS5": ["真三国无双", "起源"],
-    "鼠探 NS2": ["鼠探"],
-    "毁灭战士暗黑时代 PS5": ["毁灭战士", "暗黑时代"],
+    "真三国无双起源精确": ["真三国无双", "起源"],
+    "无双候选": ["无双"],
+    "起源候选": ["起源"],
+    "鼠探": ["鼠探"],
+    "毁灭战士暗黑时代": ["毁灭战士", "暗黑时代"],
 }
 
 
