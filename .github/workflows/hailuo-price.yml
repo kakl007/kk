@@ -6,6 +6,7 @@ on:
     branches: [master]
     paths:
       - 'fetch_prices.py'
+      - 'discover_products.py'
       - 'requirements.txt'
       - '.github/workflows/hailuo-price.yml'
       - 'TRIGGER'
@@ -42,12 +43,17 @@ jobs:
         continue-on-error: true
         run: python fetch_prices.py
 
+      - name: Discover requested products
+        id: discover
+        continue-on-error: true
+        run: python discover_products.py
+
       - name: Commit latest data
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/last_good.json data/history.json 2>/dev/null || true
+          git add data/latest.json data/last_good.json data/history.json data/discovery.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Update Hailuo prices $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             git push
