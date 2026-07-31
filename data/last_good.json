@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T07:40:26+08:00",
+  "fetched_at": "2026-07-31T11:28:13+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -22,17 +22,17 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 184.0,
+      "price": 179.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 184,
+        "price": 179,
         "cate_id": "3"
       },
-      "known_low": 184.0,
-      "cumulative_change": 50.0
+      "known_low": 179.0,
+      "cumulative_change": 55.0
     },
     {
       "id": 743,
@@ -70,17 +70,17 @@
       "id": 753,
       "target_name": "PS5 刺客信条 影",
       "store_name": "PS5 刺客信条 影",
-      "price": 188.0,
+      "price": 184.0,
       "baseline": 199,
       "cate_id": "3",
       "raw": {
         "id": 753,
         "store_name": "PS5 刺客信条 影",
-        "price": 188,
+        "price": 184,
         "cate_id": "3"
       },
-      "known_low": 188.0,
-      "cumulative_change": 11.0
+      "known_low": 184.0,
+      "cumulative_change": 15.0
     },
     {
       "id": 778,
@@ -150,17 +150,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 294.0,
+      "price": 289.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 294,
+        "price": 289,
         "cate_id": "3"
       },
-      "known_low": 294.0,
-      "cumulative_change": 160.0
+      "known_low": 289.0,
+      "cumulative_change": 165.0
     },
     {
       "id": 2232,
@@ -182,17 +182,17 @@
       "id": 2297,
       "target_name": "NS2 马里奥兄弟惊奇",
       "store_name": "NS2 马里奥兄弟惊奇 同游铃铃公园",
-      "price": 290.0,
+      "price": 284.0,
       "baseline": 297,
       "cate_id": "41",
       "raw": {
         "id": 2297,
         "store_name": "NS2 马里奥兄弟惊奇 同游铃铃公园",
-        "price": 290,
+        "price": 284,
         "cate_id": "41"
       },
-      "known_low": 290.0,
-      "cumulative_change": 7.0
+      "known_low": 284.0,
+      "cumulative_change": 13.0
     },
     {
       "id": 2416,

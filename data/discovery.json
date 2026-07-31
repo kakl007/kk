@@ -1,0 +1,35 @@
+{
+  "catalog_count": 2113,
+  "matches": {
+    "真三国无双起源 PS5": [
+      {
+        "id": 2157,
+        "store_name": "NS2 真三国无双 起源",
+        "price": 309,
+        "cate_id": "41"
+      }
+    ],
+    "鼠探 NS2": [
+      {
+        "id": 2360,
+        "store_name": "PS5 鼠探 私家侦探",
+        "price": 209,
+        "cate_id": "3"
+      },
+      {
+        "id": 2361,
+        "store_name": "NS2 鼠探 私家侦探",
+        "price": 198,
+        "cate_id": "41"
+      }
+    ],
+    "毁灭战士暗黑时代 PS5": [
+      {
+        "id": 814,
+        "store_name": "PS5 毁灭战士 暗黑时代",
+        "price": 189,
+        "cate_id": "3"
+      }
+    ]
+  }
+}
