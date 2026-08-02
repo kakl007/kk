@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T07:39:01+08:00",
+  "fetched_at": "2026-08-03T05:09:27+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -38,33 +38,33 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 220.0,
+      "price": 215.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 220,
+        "price": 215,
         "cate_id": "3"
       },
-      "known_low": 220.0,
-      "cumulative_change": 26.0
+      "known_low": 215.0,
+      "cumulative_change": 31.0
     },
     {
       "id": 745,
       "target_name": "PS5 星刃/剑星",
       "store_name": "PS5 星刃 剑星",
-      "price": 169.0,
+      "price": 165.0,
       "baseline": 185,
       "cate_id": "3",
       "raw": {
         "id": 745,
         "store_name": "PS5 星刃 剑星",
-        "price": 169,
+        "price": 165,
         "cate_id": "3"
       },
-      "known_low": 169.0,
-      "cumulative_change": 16.0
+      "known_low": 165.0,
+      "cumulative_change": 20.0
     },
     {
       "id": 769,
@@ -166,17 +166,17 @@
       "id": 2232,
       "target_name": "PS5 卡普空大作9/安魂曲",
       "store_name": "PS5 卡普空大作9 安魂曲（特）",
-      "price": 295.0,
+      "price": 289.0,
       "baseline": 305,
       "cate_id": "3",
       "raw": {
         "id": 2232,
         "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 295,
+        "price": 289,
         "cate_id": "3"
       },
-      "known_low": 295.0,
-      "cumulative_change": 10.0
+      "known_low": 289.0,
+      "cumulative_change": 16.0
     },
     {
       "id": 2361,
