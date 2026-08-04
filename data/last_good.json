@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T07:46:20+08:00",
+  "fetched_at": "2026-08-05T05:34:12+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -182,17 +182,17 @@
       "id": 2361,
       "target_name": "NS2 鼠探 私家侦探",
       "store_name": "NS2 鼠探 私家侦探",
-      "price": 198.0,
+      "price": 194.0,
       "baseline": 198,
       "cate_id": "41",
       "raw": {
         "id": 2361,
         "store_name": "NS2 鼠探 私家侦探",
-        "price": 198,
+        "price": 194,
         "cate_id": "41"
       },
-      "known_low": 198.0,
-      "cumulative_change": 0.0
+      "known_low": 194.0,
+      "cumulative_change": 4.0
     },
     {
       "id": 2416,
