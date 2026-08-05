@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T07:40:48+08:00",
+  "fetched_at": "2026-08-06T05:31:11+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -86,17 +86,17 @@
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
-      "price": 124.0,
+      "price": 119.0,
       "baseline": 138,
       "cate_id": "3",
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 124,
+        "price": 119,
         "cate_id": "3"
       },
-      "known_low": 124.0,
-      "cumulative_change": 14.0
+      "known_low": 119.0,
+      "cumulative_change": 19.0
     },
     {
       "id": 789,
