@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T09:37:54+08:00",
+  "fetched_at": "2026-08-08T04:57:00+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -150,33 +150,33 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 289.0,
+      "price": 294.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 289,
+        "price": 294,
         "cate_id": "3"
       },
       "known_low": 289.0,
-      "cumulative_change": 165.0
+      "cumulative_change": 160.0
     },
     {
       "id": 2232,
       "target_name": "PS5 卡普空大作9/安魂曲",
       "store_name": "PS5 卡普空大作9 安魂曲（特）",
-      "price": 285.0,
+      "price": 275.0,
       "baseline": 305,
       "cate_id": "3",
       "raw": {
         "id": 2232,
         "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 285,
+        "price": 275,
         "cate_id": "3"
       },
-      "known_low": 285.0,
-      "cumulative_change": 20.0
+      "known_low": 275.0,
+      "cumulative_change": 30.0
     },
     {
       "id": 2361,
