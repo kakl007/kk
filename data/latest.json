@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T07:16:29+08:00",
+  "fetched_at": "2026-08-09T04:46:44+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -118,17 +118,17 @@
       "id": 814,
       "target_name": "PS5 毁灭战士 暗黑时代",
       "store_name": "PS5 毁灭战士 暗黑时代",
-      "price": 180.0,
+      "price": 174.0,
       "baseline": 189,
       "cate_id": "3",
       "raw": {
         "id": 814,
         "store_name": "PS5 毁灭战士 暗黑时代",
-        "price": 180,
+        "price": 174,
         "cate_id": "3"
       },
-      "known_low": 180.0,
-      "cumulative_change": 9.0
+      "known_low": 174.0,
+      "cumulative_change": 15.0
     },
     {
       "id": 889,
