@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T07:03:08+08:00",
+  "fetched_at": "2026-08-10T04:50:15+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -38,17 +38,17 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 215.0,
+      "price": 210.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 215,
+        "price": 210,
         "cate_id": "3"
       },
-      "known_low": 215.0,
-      "cumulative_change": 31.0
+      "known_low": 210.0,
+      "cumulative_change": 36.0
     },
     {
       "id": 745,
