@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T06:58:19+08:00",
+  "fetched_at": "2026-08-16T04:36:54+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -70,17 +70,17 @@
       "id": 769,
       "target_name": "PS5 真三国无双 起源",
       "store_name": "PS5 三国无双 起源",
-      "price": 385.0,
+      "price": 388.0,
       "baseline": 380,
       "cate_id": "3",
       "raw": {
         "id": 769,
         "store_name": "PS5 三国无双 起源",
-        "price": 385,
+        "price": 388,
         "cate_id": "3"
       },
       "known_low": 380.0,
-      "cumulative_change": -5.0
+      "cumulative_change": -8.0
     },
     {
       "id": 778,
@@ -102,49 +102,49 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 133.0,
+      "price": 139.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 133,
+        "price": 139,
         "cate_id": "3"
       },
       "known_low": 129.0,
-      "cumulative_change": 12.0
+      "cumulative_change": 6.0
     },
     {
       "id": 814,
       "target_name": "PS5 毁灭战士 暗黑时代",
       "store_name": "PS5 毁灭战士 暗黑时代",
-      "price": 174.0,
+      "price": 179.0,
       "baseline": 189,
       "cate_id": "3",
       "raw": {
         "id": 814,
         "store_name": "PS5 毁灭战士 暗黑时代",
-        "price": 174,
+        "price": 179,
         "cate_id": "3"
       },
       "known_low": 174.0,
-      "cumulative_change": 15.0
+      "cumulative_change": 10.0
     },
     {
       "id": 889,
       "target_name": "PS5 忍龙4",
       "store_name": "PS5 忍龙4",
-      "price": 242.0,
+      "price": 244.0,
       "baseline": 240,
       "cate_id": "3",
       "raw": {
         "id": 889,
         "store_name": "PS5 忍龙4",
-        "price": 242,
+        "price": 244,
         "cate_id": "3"
       },
       "known_low": 242.0,
-      "cumulative_change": -2.0
+      "cumulative_change": -4.0
     },
     {
       "id": 2183,
@@ -166,17 +166,17 @@
       "id": 2232,
       "target_name": "PS5 卡普空大作9/安魂曲",
       "store_name": "PS5 卡普空大作9 安魂曲（特）",
-      "price": 275.0,
+      "price": 279.0,
       "baseline": 305,
       "cate_id": "3",
       "raw": {
         "id": 2232,
         "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 275,
+        "price": 279,
         "cate_id": "3"
       },
       "known_low": 275.0,
-      "cumulative_change": 30.0
+      "cumulative_change": 26.0
     },
     {
       "id": 2361,
