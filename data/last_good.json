@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T06:56:12+08:00",
+  "fetched_at": "2026-08-18T04:41:53+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -22,33 +22,33 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 179.0,
+      "price": 177.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 179,
+        "price": 177,
         "cate_id": "3"
       },
-      "known_low": 179.0,
-      "cumulative_change": 55.0
+      "known_low": 177.0,
+      "cumulative_change": 57.0
     },
     {
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 215.0,
+      "price": 214.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 215,
+        "price": 214,
         "cate_id": "3"
       },
       "known_low": 210.0,
-      "cumulative_change": 31.0
+      "cumulative_change": 32.0
     },
     {
       "id": 745,
@@ -86,17 +86,17 @@
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
-      "price": 119.0,
+      "price": 114.0,
       "baseline": 138,
       "cate_id": "3",
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 119,
+        "price": 114,
         "cate_id": "3"
       },
-      "known_low": 119.0,
-      "cumulative_change": 19.0
+      "known_low": 114.0,
+      "cumulative_change": 24.0
     },
     {
       "id": 789,
