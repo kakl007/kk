@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T06:58:59+08:00",
+  "fetched_at": "2026-08-20T04:44:04+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -118,33 +118,33 @@
       "id": 814,
       "target_name": "PS5 毁灭战士 暗黑时代",
       "store_name": "PS5 毁灭战士 暗黑时代",
-      "price": 179.0,
+      "price": 184.0,
       "baseline": 189,
       "cate_id": "3",
       "raw": {
         "id": 814,
         "store_name": "PS5 毁灭战士 暗黑时代",
-        "price": 179,
+        "price": 184,
         "cate_id": "3"
       },
       "known_low": 174.0,
-      "cumulative_change": 10.0
+      "cumulative_change": 5.0
     },
     {
       "id": 889,
       "target_name": "PS5 忍龙4",
       "store_name": "PS5 忍龙4",
-      "price": 244.0,
+      "price": 241.0,
       "baseline": 240,
       "cate_id": "3",
       "raw": {
         "id": 889,
         "store_name": "PS5 忍龙4",
-        "price": 244,
+        "price": 241,
         "cate_id": "3"
       },
-      "known_low": 242.0,
-      "cumulative_change": -4.0
+      "known_low": 241.0,
+      "cumulative_change": -1.0
     },
     {
       "id": 2183,
