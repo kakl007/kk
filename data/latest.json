@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-30T08:42:12+08:00",
+  "fetched_at": "2026-08-31T06:43:08+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -22,33 +22,33 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 179.0,
+      "price": 175.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 179,
+        "price": 175,
         "cate_id": "3"
       },
-      "known_low": 177.0,
-      "cumulative_change": 55.0
+      "known_low": 175.0,
+      "cumulative_change": 59.0
     },
     {
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 219.0,
+      "price": 214.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 219,
+        "price": 214,
         "cate_id": "3"
       },
       "known_low": 210.0,
-      "cumulative_change": 27.0
+      "cumulative_change": 32.0
     },
     {
       "id": 745,
@@ -70,33 +70,33 @@
       "id": 769,
       "target_name": "PS5 真三国无双 起源",
       "store_name": "PS5 三国无双 起源",
-      "price": 384.0,
+      "price": 389.0,
       "baseline": 380,
       "cate_id": "3",
       "raw": {
         "id": 769,
         "store_name": "PS5 三国无双 起源",
-        "price": 384,
+        "price": 389,
         "cate_id": "3"
       },
       "known_low": 380.0,
-      "cumulative_change": -4.0
+      "cumulative_change": -9.0
     },
     {
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
-      "price": 115.0,
+      "price": 124.0,
       "baseline": 138,
       "cate_id": "3",
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 115,
+        "price": 124,
         "cate_id": "3"
       },
       "known_low": 110.0,
-      "cumulative_change": 23.0
+      "cumulative_change": 14.0
     },
     {
       "id": 789,
@@ -182,17 +182,17 @@
       "id": 2361,
       "target_name": "NS2 鼠探 私家侦探",
       "store_name": "NS2 鼠探 私家侦探",
-      "price": 174.0,
+      "price": 168.0,
       "baseline": 198,
       "cate_id": "41",
       "raw": {
         "id": 2361,
         "store_name": "NS2 鼠探 私家侦探",
-        "price": 174,
+        "price": 168,
         "cate_id": "41"
       },
-      "known_low": 174.0,
-      "cumulative_change": 24.0
+      "known_low": 168.0,
+      "cumulative_change": 30.0
     },
     {
       "id": 2416,
