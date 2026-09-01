@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-01T09:23:18+08:00",
+  "fetched_at": "2026-09-02T06:35:45+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -54,17 +54,17 @@
       "id": 745,
       "target_name": "PS5 星刃/剑星",
       "store_name": "PS5 星刃 剑星",
-      "price": 160.0,
+      "price": 165.0,
       "baseline": 185,
       "cate_id": "3",
       "raw": {
         "id": 745,
         "store_name": "PS5 星刃 剑星",
-        "price": 160,
+        "price": 165,
         "cate_id": "3"
       },
       "known_low": 160.0,
-      "cumulative_change": 25.0
+      "cumulative_change": 20.0
     },
     {
       "id": 769,
