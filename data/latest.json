@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T08:39:13+08:00",
+  "fetched_at": "2026-09-04T06:33:15+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -86,17 +86,17 @@
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
-      "price": 129.0,
+      "price": 140.0,
       "baseline": 138,
       "cate_id": "3",
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 129,
+        "price": 140,
         "cate_id": "3"
       },
       "known_low": 110.0,
-      "cumulative_change": 9.0
+      "cumulative_change": -2.0
     },
     {
       "id": 789,
@@ -150,17 +150,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 329.0,
+      "price": 335.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 329,
+        "price": 335,
         "cate_id": "3"
       },
       "known_low": 289.0,
-      "cumulative_change": 125.0
+      "cumulative_change": 119.0
     },
     {
       "id": 2232,
@@ -249,12 +249,8 @@
       {
         "page": 9,
         "count": 100
-      },
-      {
-        "page": 10,
-        "count": 100
       }
     ],
-    "total_unique_ids": 1000
+    "total_unique_ids": 900
   }
 }
