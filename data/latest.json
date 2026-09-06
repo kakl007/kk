@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-06T08:12:07+08:00",
+  "fetched_at": "2026-09-07T06:06:20+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -150,17 +150,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 345.0,
+      "price": 349.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 345,
+        "price": 349,
         "cate_id": "3"
       },
       "known_low": 289.0,
-      "cumulative_change": 109.0
+      "cumulative_change": 105.0
     },
     {
       "id": 2232,
@@ -182,17 +182,17 @@
       "id": 2361,
       "target_name": "NS2 鼠探 私家侦探",
       "store_name": "NS2 鼠探 私家侦探",
-      "price": 168.0,
+      "price": 164.0,
       "baseline": 198,
       "cate_id": "41",
       "raw": {
         "id": 2361,
         "store_name": "NS2 鼠探 私家侦探",
-        "price": 168,
+        "price": 164,
         "cate_id": "41"
       },
-      "known_low": 168.0,
-      "cumulative_change": 30.0
+      "known_low": 164.0,
+      "cumulative_change": 34.0
     },
     {
       "id": 2416,
