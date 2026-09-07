@@ -1,19 +1,17 @@
 {
-  "fetched_at": "2026-09-07T07:13:47+08:00",
+  "fetched_at": "2026-09-07T08:12:22+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
     737,
     743,
     745,
-    769,
     778,
     789,
     814,
     889,
     2183,
     2232,
-    2361,
     2416
   ],
   "status": "ok",
@@ -65,22 +63,6 @@
       },
       "known_low": 160.0,
       "cumulative_change": 20.0
-    },
-    {
-      "id": 769,
-      "target_name": "PS5 真三国无双 起源",
-      "store_name": "PS5 三国无双 起源",
-      "price": 385.0,
-      "baseline": 380,
-      "cate_id": "3",
-      "raw": {
-        "id": 769,
-        "store_name": "PS5 三国无双 起源",
-        "price": 385,
-        "cate_id": "3"
-      },
-      "known_low": 380.0,
-      "cumulative_change": -5.0
     },
     {
       "id": 778,
@@ -179,22 +161,6 @@
       "cumulative_change": 26.0
     },
     {
-      "id": 2361,
-      "target_name": "NS2 鼠探 私家侦探",
-      "store_name": "NS2 鼠探 私家侦探",
-      "price": 164.0,
-      "baseline": 198,
-      "cate_id": "41",
-      "raw": {
-        "id": 2361,
-        "store_name": "NS2 鼠探 私家侦探",
-        "price": 164,
-        "cate_id": "41"
-      },
-      "known_low": 164.0,
-      "cumulative_change": 34.0
-    },
-    {
       "id": 2416,
       "target_name": "PS5 幻裂奇境",
       "store_name": "PS5 幻裂奇境",
@@ -229,28 +195,8 @@
       {
         "page": 4,
         "count": 100
-      },
-      {
-        "page": 5,
-        "count": 100
-      },
-      {
-        "page": 6,
-        "count": 100
-      },
-      {
-        "page": 7,
-        "count": 100
-      },
-      {
-        "page": 8,
-        "count": 100
-      },
-      {
-        "page": 9,
-        "count": 100
       }
     ],
-    "total_unique_ids": 900
+    "total_unique_ids": 400
   }
 }
