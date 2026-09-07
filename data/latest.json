@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T08:20:52+08:00",
+  "fetched_at": "2026-09-08T06:50:07+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -117,17 +117,17 @@
       "id": 889,
       "target_name": "PS5 忍龙4",
       "store_name": "PS5 忍龙4",
-      "price": 235.0,
+      "price": 229.0,
       "baseline": 240,
       "cate_id": "3",
       "raw": {
         "id": 889,
         "store_name": "PS5 忍龙4",
-        "price": 235,
+        "price": 229,
         "cate_id": "3"
       },
-      "known_low": 235.0,
-      "cumulative_change": 5.0
+      "known_low": 229.0,
+      "cumulative_change": 11.0
     },
     {
       "id": 2183,
@@ -180,13 +180,13 @@
     {
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
-      "store_name": "NS2 艾尔登法环 褪色者版",
+      "store_name": "NS2 老头环 艾尔登法环 褪色者版",
       "price": 453.0,
       "baseline": 453.0,
       "cate_id": "41",
       "raw": {
         "id": 2453,
-        "store_name": "NS2 艾尔登法环 褪色者版",
+        "store_name": "NS2 老头环 艾尔登法环 褪色者版",
         "price": 453,
         "cate_id": "41"
       },
@@ -283,13 +283,13 @@
       },
       {
         "page": 22,
-        "count": 57
+        "count": 58
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2157
+    "total_unique_ids": 2158
   }
 }
