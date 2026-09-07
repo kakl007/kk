@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T08:12:22+08:00",
+  "fetched_at": "2026-09-07T08:15:19+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -12,7 +12,8 @@
     889,
     2183,
     2232,
-    2416
+    2416,
+    2453
   ],
   "status": "ok",
   "items": [
@@ -175,6 +176,22 @@
       },
       "known_low": 175.0,
       "cumulative_change": -9.0
+    },
+    {
+      "id": 2453,
+      "target_name": "NS2 艾尔登法环 褪色者版",
+      "store_name": "NS2 艾尔登法环 褪色者版",
+      "price": 453.0,
+      "baseline": 453.0,
+      "cate_id": "41",
+      "raw": {
+        "id": 2453,
+        "store_name": "NS2 艾尔登法环 褪色者版",
+        "price": 453,
+        "cate_id": "41"
+      },
+      "known_low": 453.0,
+      "cumulative_change": 0.0
     }
   ],
   "missing_ids": [],
@@ -195,8 +212,84 @@
       {
         "page": 4,
         "count": 100
+      },
+      {
+        "page": 5,
+        "count": 100
+      },
+      {
+        "page": 6,
+        "count": 100
+      },
+      {
+        "page": 7,
+        "count": 100
+      },
+      {
+        "page": 8,
+        "count": 100
+      },
+      {
+        "page": 9,
+        "count": 100
+      },
+      {
+        "page": 10,
+        "count": 100
+      },
+      {
+        "page": 11,
+        "count": 100
+      },
+      {
+        "page": 12,
+        "count": 100
+      },
+      {
+        "page": 13,
+        "count": 100
+      },
+      {
+        "page": 14,
+        "count": 100
+      },
+      {
+        "page": 15,
+        "count": 100
+      },
+      {
+        "page": 16,
+        "count": 100
+      },
+      {
+        "page": 17,
+        "count": 100
+      },
+      {
+        "page": 18,
+        "count": 100
+      },
+      {
+        "page": 19,
+        "count": 100
+      },
+      {
+        "page": 20,
+        "count": 100
+      },
+      {
+        "page": 21,
+        "count": 100
+      },
+      {
+        "page": 22,
+        "count": 57
+      },
+      {
+        "page": 23,
+        "count": 0
       }
     ],
-    "total_unique_ids": 400
+    "total_unique_ids": 2157
   }
 }
