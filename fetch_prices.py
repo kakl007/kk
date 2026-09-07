@@ -176,10 +176,9 @@ def fetch_all() -> tuple[dict[int, dict], dict]:
                 new_count += 1
         if new_count == 0:
             break
-        if len(products) < 300:
-            # Some APIs still paginate despite short pages; only stop early once all targets are found.
-            if all(tid in all_by_id for tid in TARGETS):
-                break
+        # Do not stop just because the API returned fewer than the requested 300.
+        # Hailuo currently returns ~100 items/page even with limit=300, so stopping
+        # once existing targets are found can miss newly listed products on later pages.
     return all_by_id, {"pages": page_meta, "total_unique_ids": len(all_by_id)}
 
 
