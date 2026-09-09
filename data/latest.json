@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-09T08:38:01+08:00",
+  "fetched_at": "2026-09-10T06:32:56+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -85,17 +85,17 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 154.0,
+      "price": 159.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 154,
+        "price": 159,
         "cate_id": "3"
       },
       "known_low": 129.0,
-      "cumulative_change": -9.0
+      "cumulative_change": -14.0
     },
     {
       "id": 814,
@@ -283,13 +283,13 @@
       },
       {
         "page": 22,
-        "count": 58
+        "count": 59
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2158
+    "total_unique_ids": 2159
   }
 }
