@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-12T08:38:23+08:00",
+  "fetched_at": "2026-09-13T06:16:18+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -53,17 +53,17 @@
       "id": 745,
       "target_name": "PS5 星刃/剑星",
       "store_name": "PS5 星刃 剑星",
-      "price": 160.0,
+      "price": 165.0,
       "baseline": 185,
       "cate_id": "3",
       "raw": {
         "id": 745,
         "store_name": "PS5 星刃 剑星",
-        "price": 160,
+        "price": 165,
         "cate_id": "3"
       },
       "known_low": 160.0,
-      "cumulative_change": 25.0
+      "cumulative_change": 20.0
     },
     {
       "id": 778,
@@ -149,17 +149,17 @@
       "id": 2232,
       "target_name": "PS5 卡普空大作9/安魂曲",
       "store_name": "PS5 卡普空大作9 安魂曲（特）",
-      "price": 279.0,
+      "price": 275.0,
       "baseline": 305,
       "cate_id": "3",
       "raw": {
         "id": 2232,
         "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 279,
+        "price": 275,
         "cate_id": "3"
       },
       "known_low": 275.0,
-      "cumulative_change": 26.0
+      "cumulative_change": 30.0
     },
     {
       "id": 2416,
@@ -181,13 +181,13 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 453.0,
-      "baseline": 453.0,
+      "price": 459.0,
+      "baseline": 459.0,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 453,
+        "price": 459,
         "cate_id": "41"
       },
       "known_low": 453.0,
