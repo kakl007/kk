@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-13T08:20:06+08:00",
+  "fetched_at": "2026-09-14T06:23:59+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -21,33 +21,33 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 172.0,
+      "price": 168.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 172,
+        "price": 168,
         "cate_id": "3"
       },
-      "known_low": 172.0,
-      "cumulative_change": 62.0
+      "known_low": 168.0,
+      "cumulative_change": 66.0
     },
     {
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 214.0,
+      "price": 210.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 214,
+        "price": 210,
         "cate_id": "3"
       },
       "known_low": 210.0,
-      "cumulative_change": 32.0
+      "cumulative_change": 36.0
     },
     {
       "id": 745,
@@ -101,49 +101,49 @@
       "id": 814,
       "target_name": "PS5 毁灭战士 暗黑时代",
       "store_name": "PS5 毁灭战士 暗黑时代",
-      "price": 189.0,
+      "price": 184.0,
       "baseline": 189,
       "cate_id": "3",
       "raw": {
         "id": 814,
         "store_name": "PS5 毁灭战士 暗黑时代",
-        "price": 189,
+        "price": 184,
         "cate_id": "3"
       },
       "known_low": 174.0,
-      "cumulative_change": 0.0
+      "cumulative_change": 5.0
     },
     {
       "id": 889,
       "target_name": "PS5 忍龙4",
       "store_name": "PS5 忍龙4",
-      "price": 225.0,
+      "price": 219.0,
       "baseline": 240,
       "cate_id": "3",
       "raw": {
         "id": 889,
         "store_name": "PS5 忍龙4",
-        "price": 225,
+        "price": 219,
         "cate_id": "3"
       },
-      "known_low": 225.0,
-      "cumulative_change": 15.0
+      "known_low": 219.0,
+      "cumulative_change": 21.0
     },
     {
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 349.0,
+      "price": 345.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 349,
+        "price": 345,
         "cate_id": "3"
       },
       "known_low": 289.0,
-      "cumulative_change": 105.0
+      "cumulative_change": 109.0
     },
     {
       "id": 2232,
@@ -181,13 +181,13 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 459.0,
-      "baseline": 459.0,
+      "price": 455.0,
+      "baseline": 455.0,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 459,
+        "price": 455,
         "cate_id": "41"
       },
       "known_low": 453.0,
@@ -283,13 +283,13 @@
       },
       {
         "page": 22,
-        "count": 60
+        "count": 64
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2160
+    "total_unique_ids": 2164
   }
 }
