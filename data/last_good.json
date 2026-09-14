@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-14T08:26:33+08:00",
+  "fetched_at": "2026-09-15T07:07:58+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -37,33 +37,33 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 210.0,
+      "price": 208.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 210,
+        "price": 208,
         "cate_id": "3"
       },
-      "known_low": 210.0,
-      "cumulative_change": 36.0
+      "known_low": 208.0,
+      "cumulative_change": 38.0
     },
     {
       "id": 745,
       "target_name": "PS5 星刃/剑星",
       "store_name": "PS5 星刃 剑星",
-      "price": 165.0,
+      "price": 160.0,
       "baseline": 185,
       "cate_id": "3",
       "raw": {
         "id": 745,
         "store_name": "PS5 星刃 剑星",
-        "price": 165,
+        "price": 160,
         "cate_id": "3"
       },
       "known_low": 160.0,
-      "cumulative_change": 20.0
+      "cumulative_change": 25.0
     },
     {
       "id": 778,
