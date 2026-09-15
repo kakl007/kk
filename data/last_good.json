@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-15T08:54:58+08:00",
+  "fetched_at": "2026-09-16T06:53:33+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -21,17 +21,17 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 168.0,
+      "price": 165.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 168,
+        "price": 165,
         "cate_id": "3"
       },
-      "known_low": 168.0,
-      "cumulative_change": 66.0
+      "known_low": 165.0,
+      "cumulative_change": 69.0
     },
     {
       "id": 743,
@@ -85,17 +85,17 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 165.0,
+      "price": 154.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 165,
+        "price": 154,
         "cate_id": "3"
       },
       "known_low": 129.0,
-      "cumulative_change": -20.0
+      "cumulative_change": -9.0
     },
     {
       "id": 814,
@@ -283,13 +283,13 @@
       },
       {
         "page": 22,
-        "count": 64
+        "count": 66
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2164
+    "total_unique_ids": 2166
   }
 }
