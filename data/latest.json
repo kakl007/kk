@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-18T08:47:23+08:00",
+  "fetched_at": "2026-09-19T06:34:27+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -53,17 +53,17 @@
       "id": 745,
       "target_name": "PS5 星刃/剑星",
       "store_name": "PS5 星刃 剑星",
-      "price": 154.0,
+      "price": 155.0,
       "baseline": 185,
       "cate_id": "3",
       "raw": {
         "id": 745,
         "store_name": "PS5 星刃 剑星",
-        "price": 154,
+        "price": 155,
         "cate_id": "3"
       },
       "known_low": 154.0,
-      "cumulative_change": 31.0
+      "cumulative_change": 30.0
     },
     {
       "id": 778,
@@ -149,17 +149,17 @@
       "id": 2232,
       "target_name": "PS5 卡普空大作9/安魂曲",
       "store_name": "PS5 卡普空大作9 安魂曲（特）",
-      "price": 275.0,
+      "price": 279.0,
       "baseline": 305,
       "cate_id": "3",
       "raw": {
         "id": 2232,
         "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 275,
+        "price": 279,
         "cate_id": "3"
       },
       "known_low": 275.0,
-      "cumulative_change": 30.0
+      "cumulative_change": 26.0
     },
     {
       "id": 2416,
