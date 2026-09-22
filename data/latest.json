@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-22T09:11:38+08:00",
+  "fetched_at": "2026-09-23T06:56:30+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -133,17 +133,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 329.0,
+      "price": 322.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 329,
+        "price": 322,
         "cate_id": "3"
       },
       "known_low": 289.0,
-      "cumulative_change": 125.0
+      "cumulative_change": 132.0
     },
     {
       "id": 2232,
@@ -181,13 +181,13 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 460.0,
-      "baseline": 460.0,
+      "price": 465.0,
+      "baseline": 465.0,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 460,
+        "price": 465,
         "cate_id": "41"
       },
       "known_low": 453.0,
