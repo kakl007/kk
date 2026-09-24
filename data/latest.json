@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-24T08:53:31+08:00",
+  "fetched_at": "2026-09-25T07:12:30+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -85,17 +85,17 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 157.0,
+      "price": 160.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 157,
+        "price": 160,
         "cate_id": "3"
       },
       "known_low": 129.0,
-      "cumulative_change": -12.0
+      "cumulative_change": -15.0
     },
     {
       "id": 814,
@@ -117,17 +117,17 @@
       "id": 889,
       "target_name": "PS5 忍龙4",
       "store_name": "PS5 忍龙4",
-      "price": 219.0,
+      "price": 210.0,
       "baseline": 240,
       "cate_id": "3",
       "raw": {
         "id": 889,
         "store_name": "PS5 忍龙4",
-        "price": 219,
+        "price": 210,
         "cate_id": "3"
       },
-      "known_low": 219.0,
-      "cumulative_change": 21.0
+      "known_low": 210.0,
+      "cumulative_change": 30.0
     },
     {
       "id": 2183,
@@ -181,13 +181,13 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 465.0,
-      "baseline": 465.0,
+      "price": 478.0,
+      "baseline": 478.0,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 465,
+        "price": 478,
         "cate_id": "41"
       },
       "known_low": 453.0,
@@ -283,13 +283,13 @@
       },
       {
         "page": 22,
-        "count": 67
+        "count": 68
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2167
+    "total_unique_ids": 2168
   }
 }
