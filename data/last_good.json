@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-25T08:49:50+08:00",
+  "fetched_at": "2026-09-26T07:18:18+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -85,17 +85,17 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 160.0,
+      "price": 164.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 160,
+        "price": 164,
         "cate_id": "3"
       },
       "known_low": 129.0,
-      "cumulative_change": -15.0
+      "cumulative_change": -19.0
     },
     {
       "id": 814,
@@ -133,17 +133,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 322.0,
+      "price": 319.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 322,
+        "price": 319,
         "cate_id": "3"
       },
       "known_low": 289.0,
-      "cumulative_change": 132.0
+      "cumulative_change": 135.0
     },
     {
       "id": 2232,
