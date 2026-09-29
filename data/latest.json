@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-28T09:11:20+08:00",
+  "fetched_at": "2026-09-29T08:22:14+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -21,17 +21,17 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 178.0,
+      "price": 174.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 178,
+        "price": 174,
         "cate_id": "3"
       },
       "known_low": 165.0,
-      "cumulative_change": 56.0
+      "cumulative_change": 60.0
     },
     {
       "id": 743,
