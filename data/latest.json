@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-03T09:27:05+08:00",
+  "fetched_at": "2026-10-04T07:02:20+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -69,17 +69,17 @@
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
-      "price": 159.0,
+      "price": 154.0,
       "baseline": 138,
       "cate_id": "3",
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 159,
+        "price": 154,
         "cate_id": "3"
       },
       "known_low": 110.0,
-      "cumulative_change": -21.0
+      "cumulative_change": -16.0
     },
     {
       "id": 789,
@@ -181,13 +181,13 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 478.0,
-      "baseline": 478.0,
+      "price": 484.0,
+      "baseline": 484.0,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 478,
+        "price": 484,
         "cate_id": "41"
       },
       "known_low": 453.0,
