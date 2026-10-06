@@ -11,8 +11,6 @@ on:
       - '.github/workflows/hailuo-price.yml'
       - 'TRIGGER'
   schedule:
-    # GitHub scheduled workflows can be delayed. Keep the early snapshots and
-    # add four staggered retries around the ChatGPT 08:00/09:00 report window.
     - cron: '17 20 * * *' # 04:17 Asia/Shanghai
     - cron: '47 21 * * *' # 05:47 Asia/Shanghai
     - cron: '47 22 * * *' # 06:47 Asia/Shanghai
@@ -24,8 +22,6 @@ on:
 permissions:
   contents: write
 
-# A newer manual/config trigger supersedes an older in-flight snapshot.
-# This prevents the older run from trying to push from a stale master ref.
 concurrency:
   group: hailuo-price-monitor
   cancel-in-progress: false
@@ -66,8 +62,6 @@ jobs:
 
           git commit -m "Update Hailuo prices $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 
-          # master may advance while this job is fetching. Rebase and retry rather
-          # than failing with a non-fast-forward / fetch-first rejection.
           for attempt in 1 2 3; do
             if git push origin HEAD:master; then
               exit 0
@@ -78,36 +72,9 @@ jobs:
               exit 1
             fi
 
-            echo "Remote master advanced; syncing before retry $((attempt + 1))/3."
+            echo "Remote master advanced; rebasing fresh snapshot before retry."
             git fetch origin master
-            if ! git rebase origin/master; then
-              # Concurrent monitor runs can both update the three generated data
-              # files. During a rebase, --theirs is this run's freshly fetched
-              # snapshot, so keep it for generated data and continue safely.
-              conflicted="$(git diff --name-only --diff-filter=U || true)"
-              unexpected="$(printf '%s\n' "$conflicted" | grep -vE '^data/(latest|last_good|history)\.json
-            sleep $((attempt * 2))
-          done
-
-      - name: Fail workflow if fetch failed
-        if: steps.fetch.outcome == 'failure'
-        run: exit 1
- || true)"
-              if [ -n "$unexpected" ]; then
-                git rebase --abort || true
-                echo "::error::Unexpected rebase conflict: $unexpected"
-                exit 1
-              fi
-              if [ -n "$conflicted" ]; then
-                git checkout --theirs -- data/latest.json data/last_good.json data/history.json
-                git add data/latest.json data/last_good.json data/history.json
-                GIT_EDITOR=true git rebase --continue
-              else
-                git rebase --abort || true
-                echo "::error::Rebase failed without resolvable generated-data conflicts."
-                exit 1
-              fi
-            fi
+            git rebase -X theirs origin/master
             sleep $((attempt * 2))
           done
 
