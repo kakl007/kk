@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-08T09:21:25+08:00",
+  "fetched_at": "2026-10-08T10:17:45+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -21,49 +21,49 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 164.0,
+      "price": 154.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 164,
+        "price": 154,
         "cate_id": "3"
       },
-      "known_low": 164.0,
-      "cumulative_change": 70.0
+      "known_low": 154.0,
+      "cumulative_change": 80.0
     },
     {
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 209.0,
+      "price": 205.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 209,
+        "price": 205,
         "cate_id": "3"
       },
-      "known_low": 208.0,
-      "cumulative_change": 37.0
+      "known_low": 205.0,
+      "cumulative_change": 41.0
     },
     {
       "id": 745,
       "target_name": "PS5 星刃/剑星",
       "store_name": "PS5 星刃 剑星",
-      "price": 159.0,
+      "price": 148.0,
       "baseline": 185,
       "cate_id": "3",
       "raw": {
         "id": 745,
         "store_name": "PS5 星刃 剑星",
-        "price": 159,
+        "price": 148,
         "cate_id": "3"
       },
-      "known_low": 154.0,
-      "cumulative_change": 26.0
+      "known_low": 148.0,
+      "cumulative_change": 37.0
     },
     {
       "id": 778,
@@ -133,17 +133,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 298.0,
+      "price": 290.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 298,
+        "price": 290,
         "cate_id": "3"
       },
       "known_low": 289.0,
-      "cumulative_change": 156.0
+      "cumulative_change": 164.0
     },
     {
       "id": 2232,
