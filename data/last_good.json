@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-11T10:11:55+08:00",
+  "fetched_at": "2026-10-11T13:58:07+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -43,17 +43,17 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 205.0,
+      "price": 209.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 205,
+        "price": 209,
         "cate_id": "3"
       },
       "known_low": 205.0,
-      "cumulative_change": 41.0
+      "cumulative_change": 37.0
     },
     {
       "id": 745,
@@ -75,17 +75,17 @@
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
-      "price": 135.0,
+      "price": 133.0,
       "baseline": 138,
       "cate_id": "3",
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 135,
+        "price": 133,
         "cate_id": "3"
       },
       "known_low": 110.0,
-      "cumulative_change": 3.0
+      "cumulative_change": 5.0
     },
     {
       "id": 789,
@@ -250,13 +250,13 @@
     {
       "id": 2542,
       "target_name": "NS2 最终幻想 共鸣（订购）",
-      "store_name": "NS2 最终幻想 共鸣（订购）",
+      "store_name": "NS2 最终幻想 共鸣（订购2026.10.22）",
       "price": 299.0,
       "baseline": 299,
       "cate_id": "41",
       "raw": {
         "id": 2542,
-        "store_name": "NS2 最终幻想 共鸣（订购）",
+        "store_name": "NS2 最终幻想 共鸣（订购2026.10.22）",
         "price": 299,
         "cate_id": "41"
       },
