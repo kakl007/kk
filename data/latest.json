@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-11T08:44:10+08:00",
+  "fetched_at": "2026-10-11T08:53:44+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -13,7 +13,13 @@
     2183,
     2232,
     2416,
-    2453
+    2453,
+    2454,
+    2457,
+    2464,
+    2542,
+    2543,
+    2603
   ],
   "status": "ok",
   "items": [
@@ -192,6 +198,102 @@
       },
       "known_low": 453.0,
       "cumulative_change": -36.0
+    },
+    {
+      "id": 2454,
+      "target_name": "PS5 漫威金刚狼",
+      "store_name": "PS5 漫威金刚狼",
+      "price": 229.0,
+      "baseline": 229,
+      "cate_id": "3",
+      "raw": {
+        "id": 2454,
+        "store_name": "PS5 漫威金刚狼",
+        "price": 229,
+        "cate_id": "3"
+      },
+      "known_low": 229.0,
+      "cumulative_change": 0.0
+    },
+    {
+      "id": 2457,
+      "target_name": "PS5 鬼武者 剑之道",
+      "store_name": "PS5 鬼武者 剑之道",
+      "price": 245.0,
+      "baseline": 245,
+      "cate_id": "3",
+      "raw": {
+        "id": 2457,
+        "store_name": "PS5 鬼武者 剑之道",
+        "price": 245,
+        "cate_id": "3"
+      },
+      "known_low": 245.0,
+      "cumulative_change": 0.0
+    },
+    {
+      "id": 2464,
+      "target_name": "NS2 火焰纹章 万紫千红",
+      "store_name": "NS2 火焰纹章 万紫千红",
+      "price": 380.0,
+      "baseline": 380,
+      "cate_id": "41",
+      "raw": {
+        "id": 2464,
+        "store_name": "NS2 火焰纹章 万紫千红",
+        "price": 380,
+        "cate_id": "41"
+      },
+      "known_low": 380.0,
+      "cumulative_change": 0.0
+    },
+    {
+      "id": 2542,
+      "target_name": "NS2 最终幻想 共鸣（订购）",
+      "store_name": "NS2 最终幻想 共鸣（订购）",
+      "price": 299.0,
+      "baseline": 299,
+      "cate_id": "41",
+      "raw": {
+        "id": 2542,
+        "store_name": "NS2 最终幻想 共鸣（订购）",
+        "price": 299,
+        "cate_id": "41"
+      },
+      "known_low": 299.0,
+      "cumulative_change": 0.0
+    },
+    {
+      "id": 2543,
+      "target_name": "PS5 致命躯壳2",
+      "store_name": "PS5 致命躯壳2",
+      "price": 279.0,
+      "baseline": 279,
+      "cate_id": "3",
+      "raw": {
+        "id": 2543,
+        "store_name": "PS5 致命躯壳2",
+        "price": 279,
+        "cate_id": "3"
+      },
+      "known_low": 279.0,
+      "cumulative_change": 0.0
+    },
+    {
+      "id": 2603,
+      "target_name": "NS2 龙之信条2（订购）",
+      "store_name": "NS2 龙之信条2（订购）",
+      "price": 279.0,
+      "baseline": 279,
+      "cate_id": "41",
+      "raw": {
+        "id": 2603,
+        "store_name": "NS2 龙之信条2（订购）",
+        "price": 279,
+        "cate_id": "41"
+      },
+      "known_low": 279.0,
+      "cumulative_change": 0.0
     }
   ],
   "missing_ids": [],
