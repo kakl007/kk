@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-12T10:27:19+08:00",
+  "fetched_at": "2026-10-12T14:08:27+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -27,17 +27,17 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 154.0,
+      "price": 150.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 154,
+        "price": 150,
         "cate_id": "3"
       },
-      "known_low": 154.0,
-      "cumulative_change": 80.0
+      "known_low": 150.0,
+      "cumulative_change": 84.0
     },
     {
       "id": 743,
@@ -91,17 +91,17 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 159.0,
+      "price": 154.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 159,
+        "price": 154,
         "cate_id": "3"
       },
       "known_low": 129.0,
-      "cumulative_change": -14.0
+      "cumulative_change": -9.0
     },
     {
       "id": 814,
@@ -219,17 +219,17 @@
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 240.0,
+      "price": 235.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 240,
+        "price": 235,
         "cate_id": "3"
       },
-      "known_low": 240.0,
-      "cumulative_change": 5.0
+      "known_low": 235.0,
+      "cumulative_change": 10.0
     },
     {
       "id": 2464,
@@ -385,13 +385,13 @@
       },
       {
         "page": 22,
-        "count": 70
+        "count": 71
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2170
+    "total_unique_ids": 2171
   }
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-12T10:39:16+08:00",
+  "fetched_at": "2026-10-12T14:08:27+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -21,6 +21,377 @@
     2543,
     2603
   ],
-  "status": "error",
-  "error": "RuntimeError: direct=ConnectionError:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) | resolve(47.100.50.74)=CalledProcessError:Command '['curl', '-fsSL', '--connect-timeout', '12', '--max-time', '30', '--retry', '2', '--retry-delay', '1', '--resolve', 'hailuo.dwzjd.com:443:47.100.50.74', '-H', 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/138 Safari/537.36', '-H', 'Accept: application/json,text/plain,*/*', '-H', 'Referer: https://hailuo.dwzjd.com/', 'https://hailuo.dwzjd.com/api/products?limit=300&page=1']' returned non-zero exit status 92."
+  "status": "ok",
+  "items": [
+    {
+      "id": 737,
+      "target_name": "PS5 死亡搁浅2",
+      "store_name": "PS5 死亡搁浅2",
+      "price": 150.0,
+      "baseline": 234,
+      "cate_id": "3",
+      "raw": {
+        "id": 737,
+        "store_name": "PS5 死亡搁浅2",
+        "price": 150,
+        "cate_id": "3"
+      },
+      "known_low": 150.0,
+      "cumulative_change": 84.0
+    },
+    {
+      "id": 743,
+      "target_name": "PS5 GT赛车7",
+      "store_name": "PS5 GT赛车7",
+      "price": 209.0,
+      "baseline": 246,
+      "cate_id": "3",
+      "raw": {
+        "id": 743,
+        "store_name": "PS5 GT赛车7",
+        "price": 209,
+        "cate_id": "3"
+      },
+      "known_low": 205.0,
+      "cumulative_change": 37.0
+    },
+    {
+      "id": 745,
+      "target_name": "PS5 星刃/剑星",
+      "store_name": "PS5 星刃 剑星",
+      "price": 144.0,
+      "baseline": 185,
+      "cate_id": "3",
+      "raw": {
+        "id": 745,
+        "store_name": "PS5 星刃 剑星",
+        "price": 144,
+        "cate_id": "3"
+      },
+      "known_low": 144.0,
+      "cumulative_change": 41.0
+    },
+    {
+      "id": 778,
+      "target_name": "PS5 龙之信条2",
+      "store_name": "PS5 龙之信条2",
+      "price": 133.0,
+      "baseline": 138,
+      "cate_id": "3",
+      "raw": {
+        "id": 778,
+        "store_name": "PS5 龙之信条2",
+        "price": 133,
+        "cate_id": "3"
+      },
+      "known_low": 110.0,
+      "cumulative_change": 5.0
+    },
+    {
+      "id": 789,
+      "target_name": "PS5 巫师3年度版",
+      "store_name": "PS5 巫师3年度版",
+      "price": 154.0,
+      "baseline": 145,
+      "cate_id": "3",
+      "raw": {
+        "id": 789,
+        "store_name": "PS5 巫师3年度版",
+        "price": 154,
+        "cate_id": "3"
+      },
+      "known_low": 129.0,
+      "cumulative_change": -9.0
+    },
+    {
+      "id": 814,
+      "target_name": "PS5 毁灭战士 暗黑时代",
+      "store_name": "PS5 毁灭战士 暗黑时代",
+      "price": 174.0,
+      "baseline": 189,
+      "cate_id": "3",
+      "raw": {
+        "id": 814,
+        "store_name": "PS5 毁灭战士 暗黑时代",
+        "price": 174,
+        "cate_id": "3"
+      },
+      "known_low": 174.0,
+      "cumulative_change": 15.0
+    },
+    {
+      "id": 889,
+      "target_name": "PS5 忍龙4",
+      "store_name": "PS5 忍龙4",
+      "price": 210.0,
+      "baseline": 240,
+      "cate_id": "3",
+      "raw": {
+        "id": 889,
+        "store_name": "PS5 忍龙4",
+        "price": 210,
+        "cate_id": "3"
+      },
+      "known_low": 210.0,
+      "cumulative_change": 30.0
+    },
+    {
+      "id": 2183,
+      "target_name": "PS5 红色沙漠",
+      "store_name": "PS5 红色沙漠",
+      "price": 290.0,
+      "baseline": 454,
+      "cate_id": "3",
+      "raw": {
+        "id": 2183,
+        "store_name": "PS5 红色沙漠",
+        "price": 290,
+        "cate_id": "3"
+      },
+      "known_low": 289.0,
+      "cumulative_change": 164.0
+    },
+    {
+      "id": 2232,
+      "target_name": "PS5 卡普空大作9/安魂曲",
+      "store_name": "PS5 卡普空大作9 安魂曲（特）",
+      "price": 279.0,
+      "baseline": 305,
+      "cate_id": "3",
+      "raw": {
+        "id": 2232,
+        "store_name": "PS5 卡普空大作9 安魂曲（特）",
+        "price": 279,
+        "cate_id": "3"
+      },
+      "known_low": 275.0,
+      "cumulative_change": 26.0
+    },
+    {
+      "id": 2416,
+      "target_name": "PS5 幻裂奇境",
+      "store_name": "PS5 幻裂奇境",
+      "price": 175.0,
+      "baseline": 166,
+      "cate_id": "3",
+      "raw": {
+        "id": 2416,
+        "store_name": "PS5 幻裂奇境",
+        "price": 175,
+        "cate_id": "3"
+      },
+      "known_low": 175.0,
+      "cumulative_change": -9.0
+    },
+    {
+      "id": 2453,
+      "target_name": "NS2 艾尔登法环 褪色者版",
+      "store_name": "NS2 老头环 艾尔登法环 褪色者版",
+      "price": 489.0,
+      "baseline": 453,
+      "cate_id": "41",
+      "raw": {
+        "id": 2453,
+        "store_name": "NS2 老头环 艾尔登法环 褪色者版",
+        "price": 489,
+        "cate_id": "41"
+      },
+      "known_low": 453.0,
+      "cumulative_change": -36.0
+    },
+    {
+      "id": 2454,
+      "target_name": "PS5 漫威金刚狼",
+      "store_name": "PS5 漫威金刚狼",
+      "price": 225.0,
+      "baseline": 229,
+      "cate_id": "3",
+      "raw": {
+        "id": 2454,
+        "store_name": "PS5 漫威金刚狼",
+        "price": 225,
+        "cate_id": "3"
+      },
+      "known_low": 225.0,
+      "cumulative_change": 4.0
+    },
+    {
+      "id": 2457,
+      "target_name": "PS5 鬼武者 剑之道",
+      "store_name": "PS5 鬼武者 剑之道",
+      "price": 235.0,
+      "baseline": 245,
+      "cate_id": "3",
+      "raw": {
+        "id": 2457,
+        "store_name": "PS5 鬼武者 剑之道",
+        "price": 235,
+        "cate_id": "3"
+      },
+      "known_low": 235.0,
+      "cumulative_change": 10.0
+    },
+    {
+      "id": 2464,
+      "target_name": "NS2 火焰纹章 万紫千红",
+      "store_name": "NS2 火焰纹章 万紫千红",
+      "price": 380.0,
+      "baseline": 380,
+      "cate_id": "41",
+      "raw": {
+        "id": 2464,
+        "store_name": "NS2 火焰纹章 万紫千红",
+        "price": 380,
+        "cate_id": "41"
+      },
+      "known_low": 380.0,
+      "cumulative_change": 0.0
+    },
+    {
+      "id": 2542,
+      "target_name": "NS2 最终幻想 共鸣（订购）",
+      "store_name": "NS2 最终幻想 共鸣（订购2026.10.22）",
+      "price": 299.0,
+      "baseline": 299,
+      "cate_id": "41",
+      "raw": {
+        "id": 2542,
+        "store_name": "NS2 最终幻想 共鸣（订购2026.10.22）",
+        "price": 299,
+        "cate_id": "41"
+      },
+      "known_low": 299.0,
+      "cumulative_change": 0.0
+    },
+    {
+      "id": 2543,
+      "target_name": "PS5 致命躯壳2",
+      "store_name": "PS5 致命躯壳2",
+      "price": 279.0,
+      "baseline": 279,
+      "cate_id": "3",
+      "raw": {
+        "id": 2543,
+        "store_name": "PS5 致命躯壳2",
+        "price": 279,
+        "cate_id": "3"
+      },
+      "known_low": 279.0,
+      "cumulative_change": 0.0
+    },
+    {
+      "id": 2603,
+      "target_name": "NS2 龙之信条2（订购）",
+      "store_name": "NS2 龙之信条2（订购）",
+      "price": 279.0,
+      "baseline": 279,
+      "cate_id": "41",
+      "raw": {
+        "id": 2603,
+        "store_name": "NS2 龙之信条2（订购）",
+        "price": 279,
+        "cate_id": "41"
+      },
+      "known_low": 279.0,
+      "cumulative_change": 0.0
+    }
+  ],
+  "missing_ids": [],
+  "fetch_meta": {
+    "pages": [
+      {
+        "page": 1,
+        "count": 100
+      },
+      {
+        "page": 2,
+        "count": 100
+      },
+      {
+        "page": 3,
+        "count": 100
+      },
+      {
+        "page": 4,
+        "count": 100
+      },
+      {
+        "page": 5,
+        "count": 100
+      },
+      {
+        "page": 6,
+        "count": 100
+      },
+      {
+        "page": 7,
+        "count": 100
+      },
+      {
+        "page": 8,
+        "count": 100
+      },
+      {
+        "page": 9,
+        "count": 100
+      },
+      {
+        "page": 10,
+        "count": 100
+      },
+      {
+        "page": 11,
+        "count": 100
+      },
+      {
+        "page": 12,
+        "count": 100
+      },
+      {
+        "page": 13,
+        "count": 100
+      },
+      {
+        "page": 14,
+        "count": 100
+      },
+      {
+        "page": 15,
+        "count": 100
+      },
+      {
+        "page": 16,
+        "count": 100
+      },
+      {
+        "page": 17,
+        "count": 100
+      },
+      {
+        "page": 18,
+        "count": 100
+      },
+      {
+        "page": 19,
+        "count": 100
+      },
+      {
+        "page": 20,
+        "count": 100
+      },
+      {
+        "page": 21,
+        "count": 100
+      },
+      {
+        "page": 22,
+        "count": 71
+      },
+      {
+        "page": 23,
+        "count": 0
+      }
+    ],
+    "total_unique_ids": 2171
+  }
 }
