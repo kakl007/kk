@@ -18,6 +18,9 @@ on:
     - cron: '47 23 * * *' # 07:47 Asia/Shanghai
     - cron: '17 0 * * *'  # 08:17 Asia/Shanghai
     - cron: '47 0 * * *'  # 08:47 Asia/Shanghai
+    - cron: '17 1 * * *'  # 09:17 Asia/Shanghai (catch-up)
+    - cron: '47 1 * * *'  # 09:47 Asia/Shanghai (catch-up)
+    - cron: '17 2 * * *'  # 10:17 Asia/Shanghai (last catch-up)
 
 permissions:
   contents: write
@@ -29,7 +32,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -42,10 +45,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch prices
+      - name: Fetch prices with retries
         id: fetch
         continue-on-error: true
-        run: python fetch_prices_v2.py
+        shell: bash
+        run: |
+          set -uo pipefail
+          for attempt in 1 2 3; do
+            echo "Hailuo fetch attempt ${attempt}/3"
+            if python fetch_prices_v2.py; then
+              echo "Hailuo fetch succeeded on attempt ${attempt}"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              delay=$((attempt * 20))
+              echo "::warning::Hailuo fetch failed; retrying in ${delay}s"
+              sleep "$delay"
+            fi
+          done
+          echo "::error::Hailuo fetch failed after 3 attempts"
+          exit 1
 
       - name: Commit latest data
         if: always()
