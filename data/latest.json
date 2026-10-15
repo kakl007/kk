@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T15:32:17+08:00",
+  "fetched_at": "2026-10-16T07:04:30+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -27,17 +27,17 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 150.0,
+      "price": 148.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 150,
+        "price": 148,
         "cate_id": "3"
       },
-      "known_low": 150.0,
-      "cumulative_change": 84.0
+      "known_low": 148.0,
+      "cumulative_change": 86.0
     },
     {
       "id": 743,
@@ -203,49 +203,49 @@
       "id": 2454,
       "target_name": "PS5 漫威金刚狼",
       "store_name": "PS5 漫威金刚狼",
-      "price": 216.0,
+      "price": 217.0,
       "baseline": 229,
       "cate_id": "3",
       "raw": {
         "id": 2454,
         "store_name": "PS5 漫威金刚狼",
-        "price": 216,
+        "price": 217,
         "cate_id": "3"
       },
       "known_low": 216.0,
-      "cumulative_change": 13.0
+      "cumulative_change": 12.0
     },
     {
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 226.0,
+      "price": 223.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 226,
+        "price": 223,
         "cate_id": "3"
       },
-      "known_low": 226.0,
-      "cumulative_change": 19.0
+      "known_low": 223.0,
+      "cumulative_change": 22.0
     },
     {
       "id": 2464,
       "target_name": "NS2 火焰纹章 万紫千红",
       "store_name": "NS2 火焰纹章 万紫千红",
-      "price": 375.0,
+      "price": 370.0,
       "baseline": 380,
       "cate_id": "41",
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 375,
+        "price": 370,
         "cate_id": "41"
       },
-      "known_low": 375.0,
-      "cumulative_change": 5.0
+      "known_low": 370.0,
+      "cumulative_change": 10.0
     },
     {
       "id": 2542,
@@ -385,13 +385,13 @@
       },
       {
         "page": 22,
-        "count": 93
+        "count": 96
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2193
+    "total_unique_ids": 2196
   }
 }
