@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T13:17:41+08:00",
+  "fetched_at": "2026-10-15T13:56:23+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -187,17 +187,17 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 489.0,
+      "price": 479.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 489,
+        "price": 479,
         "cate_id": "41"
       },
       "known_low": 453.0,
-      "cumulative_change": -36.0
+      "cumulative_change": -26.0
     },
     {
       "id": 2454,
