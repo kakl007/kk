@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T09:33:33+08:00",
+  "fetched_at": "2026-10-17T12:37:42+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -187,17 +187,17 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 479.0,
+      "price": 478.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 479,
+        "price": 478,
         "cate_id": "41"
       },
       "known_low": 453.0,
-      "cumulative_change": -26.0
+      "cumulative_change": -25.0
     },
     {
       "id": 2454,
@@ -251,17 +251,17 @@
       "id": 2542,
       "target_name": "NS2 最终幻想 共鸣（订购）",
       "store_name": "NS2 最终幻想 共鸣（订购2026.10.22）",
-      "price": 299.0,
+      "price": 289.0,
       "baseline": 299,
       "cate_id": "41",
       "raw": {
         "id": 2542,
         "store_name": "NS2 最终幻想 共鸣（订购2026.10.22）",
-        "price": 299,
+        "price": 289,
         "cate_id": "41"
       },
-      "known_low": 299.0,
-      "cumulative_change": 0.0
+      "known_low": 289.0,
+      "cumulative_change": 10.0
     },
     {
       "id": 2543,
