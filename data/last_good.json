@@ -1,18 +1,14 @@
 {
-  "fetched_at": "2026-10-18T07:29:30+08:00",
+  "fetched_at": "2026-10-18T08:12:58+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
     737,
     743,
-    745,
     778,
     789,
-    814,
-    889,
     2183,
     2232,
-    2416,
     2453,
     2454,
     2457,
@@ -56,22 +52,6 @@
       "cumulative_change": 31.0
     },
     {
-      "id": 745,
-      "target_name": "PS5 星刃/剑星",
-      "store_name": "PS5 星刃 剑星",
-      "price": 148.0,
-      "baseline": 185,
-      "cate_id": "3",
-      "raw": {
-        "id": 745,
-        "store_name": "PS5 星刃 剑星",
-        "price": 148,
-        "cate_id": "3"
-      },
-      "known_low": 144.0,
-      "cumulative_change": 37.0
-    },
-    {
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
@@ -104,38 +84,6 @@
       "cumulative_change": -9.0
     },
     {
-      "id": 814,
-      "target_name": "PS5 毁灭战士 暗黑时代",
-      "store_name": "PS5 毁灭战士 暗黑时代",
-      "price": 174.0,
-      "baseline": 189,
-      "cate_id": "3",
-      "raw": {
-        "id": 814,
-        "store_name": "PS5 毁灭战士 暗黑时代",
-        "price": 174,
-        "cate_id": "3"
-      },
-      "known_low": 174.0,
-      "cumulative_change": 15.0
-    },
-    {
-      "id": 889,
-      "target_name": "PS5 忍龙4",
-      "store_name": "PS5 忍龙4",
-      "price": 210.0,
-      "baseline": 240,
-      "cate_id": "3",
-      "raw": {
-        "id": 889,
-        "store_name": "PS5 忍龙4",
-        "price": 210,
-        "cate_id": "3"
-      },
-      "known_low": 210.0,
-      "cumulative_change": 30.0
-    },
-    {
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
@@ -166,22 +114,6 @@
       },
       "known_low": 275.0,
       "cumulative_change": 26.0
-    },
-    {
-      "id": 2416,
-      "target_name": "PS5 幻裂奇境",
-      "store_name": "PS5 幻裂奇境",
-      "price": 160.0,
-      "baseline": 166,
-      "cate_id": "3",
-      "raw": {
-        "id": 2416,
-        "store_name": "PS5 幻裂奇境",
-        "price": 160,
-        "cate_id": "3"
-      },
-      "known_low": 160.0,
-      "cumulative_change": 6.0
     },
     {
       "id": 2453,
