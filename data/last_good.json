@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T09:32:31+08:00",
+  "fetched_at": "2026-10-18T12:43:37+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -23,49 +23,49 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 148.0,
+      "price": 140.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 148,
+        "price": 140,
         "cate_id": "3"
       },
-      "known_low": 148.0,
-      "cumulative_change": 86.0
+      "known_low": 140.0,
+      "cumulative_change": 94.0
     },
     {
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 215.0,
+      "price": 219.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 215,
+        "price": 219,
         "cate_id": "3"
       },
       "known_low": 205.0,
-      "cumulative_change": 31.0
+      "cumulative_change": 27.0
     },
     {
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
-      "price": 124.0,
+      "price": 119.0,
       "baseline": 138,
       "cate_id": "3",
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 124,
+        "price": 119,
         "cate_id": "3"
       },
       "known_low": 110.0,
-      "cumulative_change": 14.0
+      "cumulative_change": 19.0
     },
     {
       "id": 789,
@@ -119,33 +119,33 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 478.0,
+      "price": 475.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 478,
+        "price": 475,
         "cate_id": "41"
       },
       "known_low": 453.0,
-      "cumulative_change": -25.0
+      "cumulative_change": -22.0
     },
     {
       "id": 2454,
       "target_name": "PS5 漫威金刚狼",
       "store_name": "PS5 漫威金刚狼",
-      "price": 212.0,
+      "price": 216.0,
       "baseline": 229,
       "cate_id": "3",
       "raw": {
         "id": 2454,
         "store_name": "PS5 漫威金刚狼",
-        "price": 212,
+        "price": 216,
         "cate_id": "3"
       },
-      "known_low": 212.0,
-      "cumulative_change": 17.0
+      "known_low": 216.0,
+      "cumulative_change": 13.0
     },
     {
       "id": 2457,
