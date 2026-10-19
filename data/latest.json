@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T09:43:16+08:00",
+  "fetched_at": "2026-10-19T12:51:26+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -119,17 +119,17 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 475.0,
+      "price": 469.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 475,
+        "price": 469,
         "cate_id": "41"
       },
       "known_low": 453.0,
-      "cumulative_change": -22.0
+      "cumulative_change": -16.0
     },
     {
       "id": 2454,
@@ -199,17 +199,17 @@
       "id": 2543,
       "target_name": "PS5 致命躯壳2",
       "store_name": "PS5 致命躯壳2",
-      "price": 274.0,
+      "price": 269.0,
       "baseline": 279,
       "cate_id": "3",
       "raw": {
         "id": 2543,
         "store_name": "PS5 致命躯壳2",
-        "price": 274,
+        "price": 269,
         "cate_id": "3"
       },
-      "known_low": 274.0,
-      "cumulative_change": 5.0
+      "known_low": 269.0,
+      "cumulative_change": 10.0
     },
     {
       "id": 2603,
