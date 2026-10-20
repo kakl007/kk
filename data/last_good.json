@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T13:22:31+08:00",
+  "fetched_at": "2026-10-20T14:06:10+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -103,17 +103,17 @@
       "id": 2232,
       "target_name": "PS5 卡普空大作9/安魂曲",
       "store_name": "PS5 卡普空大作9 安魂曲（特）",
-      "price": 279.0,
+      "price": 275.0,
       "baseline": 305,
       "cate_id": "3",
       "raw": {
         "id": 2232,
         "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 279,
+        "price": 275,
         "cate_id": "3"
       },
       "known_low": 275.0,
-      "cumulative_change": 26.0
+      "cumulative_change": 30.0
     },
     {
       "id": 2453,
@@ -167,17 +167,17 @@
       "id": 2464,
       "target_name": "NS2 火焰纹章 万紫千红",
       "store_name": "NS2 火焰纹章 万紫千红",
-      "price": 370.0,
+      "price": 368.0,
       "baseline": 380,
       "cate_id": "41",
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 370,
+        "price": 368,
         "cate_id": "41"
       },
-      "known_low": 370.0,
-      "cumulative_change": 10.0
+      "known_low": 368.0,
+      "cumulative_change": 12.0
     },
     {
       "id": 2542,
