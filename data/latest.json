@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T15:41:34+08:00",
+  "fetched_at": "2026-10-21T07:10:56+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -100,36 +100,20 @@
       "cumulative_change": 174.0
     },
     {
-      "id": 2232,
-      "target_name": "PS5 卡普空大作9/安魂曲",
-      "store_name": "PS5 卡普空大作9 安魂曲（特）",
-      "price": 275.0,
-      "baseline": 305,
-      "cate_id": "3",
-      "raw": {
-        "id": 2232,
-        "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 275,
-        "cate_id": "3"
-      },
-      "known_low": 275.0,
-      "cumulative_change": 30.0
-    },
-    {
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 469.0,
+      "price": 464.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 469,
+        "price": 464,
         "cate_id": "41"
       },
       "known_low": 453.0,
-      "cumulative_change": -16.0
+      "cumulative_change": -11.0
     },
     {
       "id": 2454,
@@ -213,6 +197,7 @@
     }
   ],
   "missing_ids": [
+    2232,
     2603
   ],
   "fetch_meta": {
@@ -303,13 +288,13 @@
       },
       {
         "page": 22,
-        "count": 96
+        "count": 60
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2196
+    "total_unique_ids": 2160
   }
 }
