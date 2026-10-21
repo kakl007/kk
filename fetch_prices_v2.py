@@ -15,7 +15,7 @@ monitor.TARGETS = {
     2464: {"name": "NS2 火焰纹章 万紫千红", "baseline": 380},
     2454: {"name": "PS5 漫威金刚狼", "baseline": 229},
     2542: {"name": "NS2 最终幻想 共鸣（订购）", "baseline": 299},
-    2603: {"name": "NS2 龙之信条2（订购）", "baseline": 279},
+    2617: {"name": "NS2 龙之信条2 黑暗再临", "baseline": 249},
 }
 
 if __name__ == "__main__":
