@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T08:10:07+08:00",
+  "fetched_at": "2026-10-21T08:24:13+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -15,7 +15,7 @@
     2464,
     2542,
     2543,
-    2603
+    2617
   ],
   "status": "partial",
   "items": [
@@ -194,11 +194,26 @@
       },
       "known_low": 262.0,
       "cumulative_change": 17.0
+    },
+    {
+      "id": 2617,
+      "target_name": "NS2 龙之信条2 黑暗再临",
+      "store_name": "NS2 龙之信条2 黑暗再临",
+      "price": 249.0,
+      "baseline": 249,
+      "cate_id": "41",
+      "raw": {
+        "id": 2617,
+        "store_name": "NS2 龙之信条2 黑暗再临",
+        "price": 249,
+        "cate_id": "41"
+      },
+      "known_low": 249.0,
+      "cumulative_change": 0.0
     }
   ],
   "missing_ids": [
-    2232,
-    2603
+    2232
   ],
   "fetch_meta": {
     "pages": [
