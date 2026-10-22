@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T09:52:16+08:00",
+  "fetched_at": "2026-10-22T12:59:53+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -23,17 +23,17 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 144.0,
+      "price": 140.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 144,
+        "price": 140,
         "cate_id": "3"
       },
       "known_low": 140.0,
-      "cumulative_change": 90.0
+      "cumulative_change": 94.0
     },
     {
       "id": 743,
@@ -119,17 +119,17 @@
       "id": 2454,
       "target_name": "PS5 漫威金刚狼",
       "store_name": "PS5 漫威金刚狼",
-      "price": 216.0,
+      "price": 210.0,
       "baseline": 229,
       "cate_id": "3",
       "raw": {
         "id": 2454,
         "store_name": "PS5 漫威金刚狼",
-        "price": 216,
+        "price": 210,
         "cate_id": "3"
       },
-      "known_low": 216.0,
-      "cumulative_change": 13.0
+      "known_low": 210.0,
+      "cumulative_change": 19.0
     },
     {
       "id": 2457,
@@ -183,17 +183,17 @@
       "id": 2543,
       "target_name": "PS5 致命躯壳2",
       "store_name": "PS5 致命躯壳2",
-      "price": 262.0,
+      "price": 260.0,
       "baseline": 279,
       "cate_id": "3",
       "raw": {
         "id": 2543,
         "store_name": "PS5 致命躯壳2",
-        "price": 262,
+        "price": 260,
         "cate_id": "3"
       },
-      "known_low": 262.0,
-      "cumulative_change": 17.0
+      "known_low": 260.0,
+      "cumulative_change": 19.0
     },
     {
       "id": 2617,
@@ -303,13 +303,13 @@
       },
       {
         "page": 22,
-        "count": 60
+        "count": 63
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2160
+    "total_unique_ids": 2163
   }
 }
