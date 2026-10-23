@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T15:38:53+08:00",
+  "fetched_at": "2026-10-24T07:08:46+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -166,13 +166,13 @@
     {
       "id": 2542,
       "target_name": "NS2 最终幻想 共鸣（订购）",
-      "store_name": "NS2 最终幻想 共鸣（订购2026.10.22）",
+      "store_name": "NS2 最终幻想 共鸣",
       "price": 289.0,
       "baseline": 299,
       "cate_id": "41",
       "raw": {
         "id": 2542,
-        "store_name": "NS2 最终幻想 共鸣（订购2026.10.22）",
+        "store_name": "NS2 最终幻想 共鸣",
         "price": 289,
         "cate_id": "41"
       },
