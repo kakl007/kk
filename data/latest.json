@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T09:44:10+08:00",
+  "fetched_at": "2026-10-26T12:57:17+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -17,7 +17,7 @@
     2543,
     2617
   ],
-  "status": "partial",
+  "status": "ok",
   "items": [
     {
       "id": 737,
@@ -55,17 +55,17 @@
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
-      "price": 114.0,
+      "price": 109.0,
       "baseline": 138,
       "cate_id": "3",
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 114,
+        "price": 109,
         "cate_id": "3"
       },
-      "known_low": 110.0,
-      "cumulative_change": 24.0
+      "known_low": 109.0,
+      "cumulative_change": 29.0
     },
     {
       "id": 789,
@@ -100,20 +100,36 @@
       "cumulative_change": 184.0
     },
     {
+      "id": 2232,
+      "target_name": "PS5 卡普空大作9/安魂曲",
+      "store_name": "PS5 卡普空大作9 安魂曲（特）",
+      "price": 275.0,
+      "baseline": 305,
+      "cate_id": "3",
+      "raw": {
+        "id": 2232,
+        "store_name": "PS5 卡普空大作9 安魂曲（特）",
+        "price": 275,
+        "cate_id": "3"
+      },
+      "known_low": 275.0,
+      "cumulative_change": 30.0
+    },
+    {
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 464.0,
+      "price": 454.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 464,
+        "price": 454,
         "cate_id": "41"
       },
       "known_low": 453.0,
-      "cumulative_change": -11.0
+      "cumulative_change": -1.0
     },
     {
       "id": 2454,
@@ -167,33 +183,33 @@
       "id": 2542,
       "target_name": "NS2 最终幻想 共鸣（订购）",
       "store_name": "NS2 最终幻想 共鸣",
-      "price": 301.0,
+      "price": 298.0,
       "baseline": 299,
       "cate_id": "41",
       "raw": {
         "id": 2542,
         "store_name": "NS2 最终幻想 共鸣",
-        "price": 301,
+        "price": 298,
         "cate_id": "41"
       },
       "known_low": 289.0,
-      "cumulative_change": -2.0
+      "cumulative_change": 1.0
     },
     {
       "id": 2543,
       "target_name": "PS5 致命躯壳2",
       "store_name": "PS5 致命躯壳2",
-      "price": 257.0,
+      "price": 254.0,
       "baseline": 279,
       "cate_id": "3",
       "raw": {
         "id": 2543,
         "store_name": "PS5 致命躯壳2",
-        "price": 257,
+        "price": 254,
         "cate_id": "3"
       },
-      "known_low": 257.0,
-      "cumulative_change": 22.0
+      "known_low": 254.0,
+      "cumulative_change": 25.0
     },
     {
       "id": 2617,
@@ -212,9 +228,7 @@
       "cumulative_change": -25.0
     }
   ],
-  "missing_ids": [
-    2232
-  ],
+  "missing_ids": [],
   "fetch_meta": {
     "pages": [
       {
@@ -303,13 +317,13 @@
       },
       {
         "page": 22,
-        "count": 63
+        "count": 90
       },
       {
         "page": 23,
         "count": 0
       }
     ],
-    "total_unique_ids": 2163
+    "total_unique_ids": 2190
   }
 }
