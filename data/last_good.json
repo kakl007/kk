@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T10:20:04+08:00",
+  "fetched_at": "2026-10-28T10:35:00+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -167,17 +167,17 @@
       "id": 2464,
       "target_name": "NS2 火焰纹章 万紫千红",
       "store_name": "NS2 火焰纹章 万紫千红",
-      "price": 365.0,
+      "price": 355.0,
       "baseline": 380,
       "cate_id": "41",
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 365,
+        "price": 355,
         "cate_id": "41"
       },
-      "known_low": 365.0,
-      "cumulative_change": 15.0
+      "known_low": 355.0,
+      "cumulative_change": 25.0
     },
     {
       "id": 2542,
