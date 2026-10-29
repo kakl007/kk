@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T09:57:32+08:00",
+  "fetched_at": "2026-10-29T10:28:34+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -39,17 +39,17 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 215.0,
+      "price": 211.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 215,
+        "price": 211,
         "cate_id": "3"
       },
       "known_low": 205.0,
-      "cumulative_change": 31.0
+      "cumulative_change": 35.0
     },
     {
       "id": 778,
@@ -87,17 +87,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 270.0,
+      "price": 263.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 270,
+        "price": 263,
         "cate_id": "3"
       },
-      "known_low": 270.0,
-      "cumulative_change": 184.0
+      "known_low": 263.0,
+      "cumulative_change": 191.0
     },
     {
       "id": 2232,
@@ -135,17 +135,17 @@
       "id": 2454,
       "target_name": "PS5 漫威金刚狼",
       "store_name": "PS5 漫威金刚狼",
-      "price": 210.0,
+      "price": 208.0,
       "baseline": 229,
       "cate_id": "3",
       "raw": {
         "id": 2454,
         "store_name": "PS5 漫威金刚狼",
-        "price": 210,
+        "price": 208,
         "cate_id": "3"
       },
-      "known_low": 210.0,
-      "cumulative_change": 19.0
+      "known_low": 208.0,
+      "cumulative_change": 21.0
     },
     {
       "id": 2457,
