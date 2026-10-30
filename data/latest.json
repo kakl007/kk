@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T10:58:31+08:00",
+  "fetched_at": "2026-10-30T13:58:36+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -39,17 +39,17 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 211.0,
+      "price": 209.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 211,
+        "price": 209,
         "cate_id": "3"
       },
       "known_low": 205.0,
-      "cumulative_change": 35.0
+      "cumulative_change": 37.0
     },
     {
       "id": 778,
@@ -87,17 +87,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 263.0,
+      "price": 254.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 263,
+        "price": 254,
         "cate_id": "3"
       },
-      "known_low": 263.0,
-      "cumulative_change": 191.0
+      "known_low": 254.0,
+      "cumulative_change": 200.0
     },
     {
       "id": 2232,
@@ -135,33 +135,33 @@
       "id": 2454,
       "target_name": "PS5 漫威金刚狼",
       "store_name": "PS5 漫威金刚狼",
-      "price": 208.0,
+      "price": 199.0,
       "baseline": 229,
       "cate_id": "3",
       "raw": {
         "id": 2454,
         "store_name": "PS5 漫威金刚狼",
-        "price": 208,
+        "price": 199,
         "cate_id": "3"
       },
-      "known_low": 208.0,
-      "cumulative_change": 21.0
+      "known_low": 199.0,
+      "cumulative_change": 30.0
     },
     {
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 234.0,
+      "price": 229.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 234,
+        "price": 229,
         "cate_id": "3"
       },
       "known_low": 223.0,
-      "cumulative_change": 11.0
+      "cumulative_change": 16.0
     },
     {
       "id": 2464,
@@ -199,17 +199,17 @@
       "id": 2543,
       "target_name": "PS5 致命躯壳2",
       "store_name": "PS5 致命躯壳2",
-      "price": 250.0,
+      "price": 240.0,
       "baseline": 279,
       "cate_id": "3",
       "raw": {
         "id": 2543,
         "store_name": "PS5 致命躯壳2",
-        "price": 250,
+        "price": 240,
         "cate_id": "3"
       },
-      "known_low": 250.0,
-      "cumulative_change": 29.0
+      "known_low": 240.0,
+      "cumulative_change": 39.0
     },
     {
       "id": 2617,
@@ -317,13 +317,17 @@
       },
       {
         "page": 22,
-        "count": 93
+        "count": 100
       },
       {
         "page": 23,
+        "count": 11
+      },
+      {
+        "page": 24,
         "count": 0
       }
     ],
-    "total_unique_ids": 2193
+    "total_unique_ids": 2211
   }
 }
