@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-31T09:51:42+08:00",
+  "fetched_at": "2026-10-31T10:26:49+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -167,17 +167,17 @@
       "id": 2464,
       "target_name": "NS2 火焰纹章 万紫千红",
       "store_name": "NS2 火焰纹章 万紫千红",
-      "price": 355.0,
+      "price": 350.0,
       "baseline": 380,
       "cate_id": "41",
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 355,
+        "price": 350,
         "cate_id": "41"
       },
-      "known_low": 355.0,
-      "cumulative_change": 25.0
+      "known_low": 350.0,
+      "cumulative_change": 30.0
     },
     {
       "id": 2542,
@@ -199,17 +199,17 @@
       "id": 2543,
       "target_name": "PS5 致命躯壳2",
       "store_name": "PS5 致命躯壳2",
-      "price": 240.0,
+      "price": 235.0,
       "baseline": 279,
       "cate_id": "3",
       "raw": {
         "id": 2543,
         "store_name": "PS5 致命躯壳2",
-        "price": 240,
+        "price": 235,
         "cate_id": "3"
       },
-      "known_low": 240.0,
-      "cumulative_change": 39.0
+      "known_low": 235.0,
+      "cumulative_change": 44.0
     },
     {
       "id": 2617,
