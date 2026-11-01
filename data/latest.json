@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T10:35:06+08:00",
+  "fetched_at": "2026-11-01T14:20:59+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -55,17 +55,17 @@
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
-      "price": 104.0,
+      "price": 99.0,
       "baseline": 138,
       "cate_id": "3",
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 104,
+        "price": 99,
         "cate_id": "3"
       },
-      "known_low": 104.0,
-      "cumulative_change": 34.0
+      "known_low": 99.0,
+      "cumulative_change": 39.0
     },
     {
       "id": 789,
@@ -167,17 +167,17 @@
       "id": 2464,
       "target_name": "NS2 火焰纹章 万紫千红",
       "store_name": "NS2 火焰纹章 万紫千红",
-      "price": 350.0,
+      "price": 344.0,
       "baseline": 380,
       "cate_id": "41",
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 350,
+        "price": 344,
         "cate_id": "41"
       },
-      "known_low": 350.0,
-      "cumulative_change": 30.0
+      "known_low": 344.0,
+      "cumulative_change": 36.0
     },
     {
       "id": 2542,
@@ -321,13 +321,13 @@
       },
       {
         "page": 23,
-        "count": 10
+        "count": 11
       },
       {
         "page": 24,
         "count": 0
       }
     ],
-    "total_unique_ids": 2210
+    "total_unique_ids": 2211
   }
 }
