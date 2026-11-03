@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T12:01:54+08:00",
+  "fetched_at": "2026-11-03T14:57:16+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -119,17 +119,17 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 429.0,
+      "price": 419.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 429,
+        "price": 419,
         "cate_id": "41"
       },
-      "known_low": 429.0,
-      "cumulative_change": 24.0
+      "known_low": 419.0,
+      "cumulative_change": 34.0
     },
     {
       "id": 2454,
@@ -167,17 +167,17 @@
       "id": 2464,
       "target_name": "NS2 火焰纹章 万紫千红",
       "store_name": "NS2 火焰纹章 万紫千红",
-      "price": 341.0,
+      "price": 335.0,
       "baseline": 380,
       "cate_id": "41",
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 341,
+        "price": 335,
         "cate_id": "41"
       },
-      "known_low": 341.0,
-      "cumulative_change": 39.0
+      "known_low": 335.0,
+      "cumulative_change": 45.0
     },
     {
       "id": 2542,
@@ -215,17 +215,17 @@
       "id": 2617,
       "target_name": "NS2 龙之信条2 黑暗再临",
       "store_name": "NS2 龙之信条2 黑暗再临",
-      "price": 265.0,
+      "price": 255.0,
       "baseline": 249,
       "cate_id": "41",
       "raw": {
         "id": 2617,
         "store_name": "NS2 龙之信条2 黑暗再临",
-        "price": 265,
+        "price": 255,
         "cate_id": "41"
       },
       "known_low": 249.0,
-      "cumulative_change": -16.0
+      "cumulative_change": -6.0
     }
   ],
   "missing_ids": [],
@@ -321,13 +321,13 @@
       },
       {
         "page": 23,
-        "count": 13
+        "count": 14
       },
       {
         "page": 24,
         "count": 0
       }
     ],
-    "total_unique_ids": 2213
+    "total_unique_ids": 2214
   }
 }
