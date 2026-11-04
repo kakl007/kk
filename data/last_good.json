@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T11:18:53+08:00",
+  "fetched_at": "2026-11-04T14:38:51+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -39,17 +39,17 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 205.0,
+      "price": 210.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 205,
+        "price": 210,
         "cate_id": "3"
       },
       "known_low": 205.0,
-      "cumulative_change": 41.0
+      "cumulative_change": 36.0
     },
     {
       "id": 778,
@@ -71,33 +71,33 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 142.0,
+      "price": 139.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 142,
+        "price": 139,
         "cate_id": "3"
       },
       "known_low": 129.0,
-      "cumulative_change": 3.0
+      "cumulative_change": 6.0
     },
     {
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 243.0,
+      "price": 239.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 243,
+        "price": 239,
         "cate_id": "3"
       },
-      "known_low": 243.0,
-      "cumulative_change": 211.0
+      "known_low": 239.0,
+      "cumulative_change": 215.0
     },
     {
       "id": 2232,
@@ -135,17 +135,17 @@
       "id": 2454,
       "target_name": "PS5 漫威金刚狼",
       "store_name": "PS5 漫威金刚狼",
-      "price": 185.0,
+      "price": 179.0,
       "baseline": 229,
       "cate_id": "3",
       "raw": {
         "id": 2454,
         "store_name": "PS5 漫威金刚狼",
-        "price": 185,
+        "price": 179,
         "cate_id": "3"
       },
-      "known_low": 185.0,
-      "cumulative_change": 44.0
+      "known_low": 179.0,
+      "cumulative_change": 50.0
     },
     {
       "id": 2457,
