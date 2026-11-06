@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-06T17:29:08+08:00",
+  "fetched_at": "2026-11-07T07:56:01+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -151,17 +151,17 @@
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 223.0,
+      "price": 220.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 223,
+        "price": 220,
         "cate_id": "3"
       },
-      "known_low": 223.0,
-      "cumulative_change": 22.0
+      "known_low": 220.0,
+      "cumulative_change": 25.0
     },
     {
       "id": 2464,
