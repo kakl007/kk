@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-07T10:23:46+08:00",
+  "fetched_at": "2026-11-07T10:51:46+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -23,17 +23,17 @@
       "id": 737,
       "target_name": "PS5 死亡搁浅2",
       "store_name": "PS5 死亡搁浅2",
-      "price": 144.0,
+      "price": 149.0,
       "baseline": 234,
       "cate_id": "3",
       "raw": {
         "id": 737,
         "store_name": "PS5 死亡搁浅2",
-        "price": 144,
+        "price": 149,
         "cate_id": "3"
       },
       "known_low": 138.0,
-      "cumulative_change": 90.0
+      "cumulative_change": 85.0
     },
     {
       "id": 743,
@@ -87,17 +87,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 234.0,
+      "price": 230.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 234,
+        "price": 230,
         "cate_id": "3"
       },
-      "known_low": 234.0,
-      "cumulative_change": 220.0
+      "known_low": 230.0,
+      "cumulative_change": 224.0
     },
     {
       "id": 2232,
