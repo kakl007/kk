@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T09:52:30+08:00",
+  "fetched_at": "2026-11-08T10:31:12+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -135,33 +135,33 @@
       "id": 2454,
       "target_name": "PS5 漫威金刚狼",
       "store_name": "PS5 漫威金刚狼",
-      "price": 179.0,
+      "price": 169.0,
       "baseline": 229,
       "cate_id": "3",
       "raw": {
         "id": 2454,
         "store_name": "PS5 漫威金刚狼",
-        "price": 179,
+        "price": 169,
         "cate_id": "3"
       },
-      "known_low": 179.0,
-      "cumulative_change": 50.0
+      "known_low": 169.0,
+      "cumulative_change": 60.0
     },
     {
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 220.0,
+      "price": 214.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 220,
+        "price": 214,
         "cate_id": "3"
       },
-      "known_low": 220.0,
-      "cumulative_change": 25.0
+      "known_low": 214.0,
+      "cumulative_change": 31.0
     },
     {
       "id": 2464,
