@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T07:58:23+08:00",
+  "fetched_at": "2026-11-10T10:44:26+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -119,17 +119,17 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 379.0,
+      "price": 369.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 379,
+        "price": 369,
         "cate_id": "41"
       },
-      "known_low": 379.0,
-      "cumulative_change": 74.0
+      "known_low": 369.0,
+      "cumulative_change": 84.0
     },
     {
       "id": 2454,
@@ -167,17 +167,17 @@
       "id": 2464,
       "target_name": "NS2 火焰纹章 万紫千红",
       "store_name": "NS2 火焰纹章 万紫千红",
-      "price": 332.0,
+      "price": 328.0,
       "baseline": 380,
       "cate_id": "41",
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 332,
+        "price": 328,
         "cate_id": "41"
       },
-      "known_low": 332.0,
-      "cumulative_change": 48.0
+      "known_low": 328.0,
+      "cumulative_change": 52.0
     },
     {
       "id": 2542,
