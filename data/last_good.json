@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-14T09:52:10+08:00",
+  "fetched_at": "2026-11-14T10:42:25+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -151,33 +151,33 @@
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 210.0,
+      "price": 209.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 210,
+        "price": 209,
         "cate_id": "3"
       },
-      "known_low": 210.0,
-      "cumulative_change": 35.0
+      "known_low": 209.0,
+      "cumulative_change": 36.0
     },
     {
       "id": 2464,
       "target_name": "NS2 火焰纹章 万紫千红",
       "store_name": "NS2 火焰纹章 万紫千红",
-      "price": 328.0,
+      "price": 323.0,
       "baseline": 380,
       "cate_id": "41",
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 328,
+        "price": 323,
         "cate_id": "41"
       },
-      "known_low": 328.0,
-      "cumulative_change": 52.0
+      "known_low": 323.0,
+      "cumulative_change": 57.0
     },
     {
       "id": 2542,
