@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T11:08:58+08:00",
+  "fetched_at": "2026-11-16T14:44:50+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -71,17 +71,17 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 134.0,
+      "price": 129.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 134,
+        "price": 129,
         "cate_id": "3"
       },
       "known_low": 129.0,
-      "cumulative_change": 11.0
+      "cumulative_change": 16.0
     },
     {
       "id": 2183,
@@ -151,17 +151,17 @@
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 209.0,
+      "price": 205.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 209,
+        "price": 205,
         "cate_id": "3"
       },
-      "known_low": 209.0,
-      "cumulative_change": 36.0
+      "known_low": 205.0,
+      "cumulative_change": 40.0
     },
     {
       "id": 2464,
@@ -199,17 +199,17 @@
       "id": 2543,
       "target_name": "PS5 致命躯壳2",
       "store_name": "PS5 致命躯壳2",
-      "price": 219.0,
+      "price": 215.0,
       "baseline": 279,
       "cate_id": "3",
       "raw": {
         "id": 2543,
         "store_name": "PS5 致命躯壳2",
-        "price": 219,
+        "price": 215,
         "cate_id": "3"
       },
-      "known_low": 219.0,
-      "cumulative_change": 60.0
+      "known_low": 215.0,
+      "cumulative_change": 64.0
     },
     {
       "id": 2617,
