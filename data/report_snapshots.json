@@ -2,8 +2,6 @@
   "schema_version": 1,
   "description": "Immutable per-day report price checkpoints. Compare against previous published report, not previous calendar day's final upstream fetch. Null means missing. Retired IDs remain excluded.",
   "target_ids": [
-    743,
-    737,
     789,
     2183,
     2232,
@@ -598,6 +596,25 @@
       "prices": {
         "737": 125,
         "743": 214,
+        "778": 89,
+        "789": 129,
+        "2183": 238,
+        "2232": 265,
+        "2453": 359,
+        "2454": 174,
+        "2457": 200,
+        "2464": 320,
+        "2542": 279,
+        "2543": 215,
+        "2617": 245
+      },
+      "missing_ids": []
+    },
+    {
+      "report_date": "2026-11-20",
+      "report_fetched_at": "2026-11-20T07:56:17+08:00",
+      "source": "2026-11-20 scheduled ChatGPT 11-item report",
+      "prices": {
         "778": 89,
         "789": 129,
         "2183": 238,
