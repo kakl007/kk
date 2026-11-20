@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T11:44:27+08:00",
+  "fetched_at": "2026-11-20T12:00:13+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -321,13 +321,13 @@
       },
       {
         "page": 23,
-        "count": 24
+        "count": 25
       },
       {
         "page": 24,
         "count": 0
       }
     ],
-    "total_unique_ids": 2224
+    "total_unique_ids": 2225
   }
 }
