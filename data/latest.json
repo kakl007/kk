@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T09:46:06+08:00",
+  "fetched_at": "2026-11-20T10:39:23+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -71,17 +71,17 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 129.0,
+      "price": 123.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 129,
+        "price": 123,
         "cate_id": "3"
       },
-      "known_low": 129.0,
-      "cumulative_change": 16.0
+      "known_low": 123.0,
+      "cumulative_change": 22.0
     },
     {
       "id": 2183,
@@ -119,17 +119,17 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 359.0,
+      "price": 349.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 359,
+        "price": 349,
         "cate_id": "41"
       },
-      "known_low": 359.0,
-      "cumulative_change": 94.0
+      "known_low": 349.0,
+      "cumulative_change": 104.0
     },
     {
       "id": 2454,
@@ -151,17 +151,17 @@
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 200.0,
+      "price": 190.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 200,
+        "price": 190,
         "cate_id": "3"
       },
-      "known_low": 200.0,
-      "cumulative_change": 45.0
+      "known_low": 190.0,
+      "cumulative_change": 55.0
     },
     {
       "id": 2464,
