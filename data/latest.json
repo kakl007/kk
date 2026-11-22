@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T09:39:58+08:00",
+  "fetched_at": "2026-11-22T10:40:24+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -39,17 +39,17 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 214.0,
+      "price": 204.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 214,
+        "price": 204,
         "cate_id": "3"
       },
-      "known_low": 205.0,
-      "cumulative_change": 32.0
+      "known_low": 204.0,
+      "cumulative_change": 42.0
     },
     {
       "id": 778,
@@ -71,33 +71,33 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 123.0,
+      "price": 118.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 123,
+        "price": 118,
         "cate_id": "3"
       },
-      "known_low": 123.0,
-      "cumulative_change": 22.0
+      "known_low": 118.0,
+      "cumulative_change": 27.0
     },
     {
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 238.0,
+      "price": 234.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 238,
+        "price": 234,
         "cate_id": "3"
       },
       "known_low": 220.0,
-      "cumulative_change": 216.0
+      "cumulative_change": 220.0
     },
     {
       "id": 2232,
@@ -151,49 +151,49 @@
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 190.0,
+      "price": 184.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 190,
+        "price": 184,
         "cate_id": "3"
       },
-      "known_low": 190.0,
-      "cumulative_change": 55.0
+      "known_low": 184.0,
+      "cumulative_change": 61.0
     },
     {
       "id": 2464,
       "target_name": "NS2 火焰纹章 万紫千红",
       "store_name": "NS2 火焰纹章 万紫千红",
-      "price": 320.0,
+      "price": 318.0,
       "baseline": 380,
       "cate_id": "41",
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 320,
+        "price": 318,
         "cate_id": "41"
       },
-      "known_low": 320.0,
-      "cumulative_change": 60.0
+      "known_low": 318.0,
+      "cumulative_change": 62.0
     },
     {
       "id": 2542,
       "target_name": "NS2 最终幻想 共鸣（订购）",
       "store_name": "NS2 最终幻想 共鸣",
-      "price": 279.0,
+      "price": 269.0,
       "baseline": 299,
       "cate_id": "41",
       "raw": {
         "id": 2542,
         "store_name": "NS2 最终幻想 共鸣",
-        "price": 279,
+        "price": 269,
         "cate_id": "41"
       },
-      "known_low": 279.0,
-      "cumulative_change": 20.0
+      "known_low": 269.0,
+      "cumulative_change": 30.0
     },
     {
       "id": 2543,
