@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T09:59:41+08:00",
+  "fetched_at": "2026-11-23T11:11:19+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -39,17 +39,17 @@
       "id": 743,
       "target_name": "PS5 GT赛车7",
       "store_name": "PS5 GT赛车7",
-      "price": 204.0,
+      "price": 199.0,
       "baseline": 246,
       "cate_id": "3",
       "raw": {
         "id": 743,
         "store_name": "PS5 GT赛车7",
-        "price": 204,
+        "price": 199,
         "cate_id": "3"
       },
-      "known_low": 204.0,
-      "cumulative_change": 42.0
+      "known_low": 199.0,
+      "cumulative_change": 47.0
     },
     {
       "id": 778,
@@ -71,17 +71,17 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 118.0,
+      "price": 114.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 118,
+        "price": 114,
         "cate_id": "3"
       },
-      "known_low": 118.0,
-      "cumulative_change": 27.0
+      "known_low": 114.0,
+      "cumulative_change": 31.0
     },
     {
       "id": 2183,
@@ -151,17 +151,17 @@
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 184.0,
+      "price": 179.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 184,
+        "price": 179,
         "cate_id": "3"
       },
-      "known_low": 184.0,
-      "cumulative_change": 61.0
+      "known_low": 179.0,
+      "cumulative_change": 66.0
     },
     {
       "id": 2464,
