@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T12:00:09+08:00",
+  "fetched_at": "2026-11-23T15:51:10+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -87,17 +87,17 @@
       "id": 2183,
       "target_name": "PS5 红色沙漠",
       "store_name": "PS5 红色沙漠",
-      "price": 235.0,
+      "price": 239.0,
       "baseline": 454,
       "cate_id": "3",
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 235,
+        "price": 239,
         "cate_id": "3"
       },
       "known_low": 220.0,
-      "cumulative_change": 219.0
+      "cumulative_change": 215.0
     },
     {
       "id": 2232,
@@ -321,13 +321,13 @@
       },
       {
         "page": 23,
-        "count": 27
+        "count": 28
       },
       {
         "page": 24,
         "count": 0
       }
     ],
-    "total_unique_ids": 2227
+    "total_unique_ids": 2228
   }
 }
