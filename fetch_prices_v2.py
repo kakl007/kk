@@ -16,5 +16,8 @@ monitor.TARGETS = {
     2617: {"name": "NS2 龙之信条2 黑暗再临", "baseline": 249},
 }
 
+for target in monitor.TARGETS.values():
+    target["used_box_fallback"] = True
+
 if __name__ == "__main__":
     raise SystemExit(monitor.main())

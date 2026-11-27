@@ -7,11 +7,13 @@ import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 import requests
 
 HOST = "hailuo.dwzjd.com"
 API = "https://hailuo.dwzjd.com/api/products?limit=300&page={page}"
+PRODUCT_API = f"https://{HOST}/api/product"
 TARGETS = {
     743: {"name": "PS5 GT赛车7", "baseline": 246},
     745: {"name": "PS5 星刃/剑星", "baseline": 185},
@@ -165,6 +167,30 @@ def parse_price(v: Any) -> float | None:
         return None
 
 
+def fetch_used_box_price(pid: int) -> tuple[float, str] | None:
+    detail = json.loads(fetch_text(f"{PRODUCT_API}/detail/{pid}"))
+    data = detail.get("data") or {}
+    if detail.get("status") != 200 or parse_id((data.get("storeInfo") or {}).get("id")) != pid:
+        raise RuntimeError(f"Invalid product detail for {pid}")
+
+    offers = []
+    for label, sku in (data.get("productValue") or {}).items():
+        if "二手盒装" not in label or parse_id(sku.get("product_id")) != pid:
+            continue
+        stock = parse_id(sku.get("product_stock", sku.get("stock")))
+        if parse_id(sku.get("is_show")) != 1 or stock is None or stock <= 0:
+            continue
+        unique = sku.get("unique")
+        if not isinstance(unique, str) or not unique:
+            raise RuntimeError(f"Missing SKU identifier for product {pid}")
+        response = json.loads(fetch_text(f"{PRODUCT_API}/real_price/{pid}/{quote(unique, safe='')}"))
+        price = parse_price((response.get("data") or {}).get("price"))
+        if response.get("status") != 200 or price is None or not (0 < price < float("inf")):
+            raise RuntimeError(f"Invalid storefront SKU price for product {pid}")
+        offers.append((price, label))
+    return min(offers, default=None)
+
+
 def fetch_all() -> tuple[dict[int, dict], dict]:
     all_by_id: dict[int, dict] = {}
     page_meta = []
@@ -238,7 +264,12 @@ def main() -> int:
                 missing.append(pid)
                 continue
             price = parse_price(raw.get("price"))
-            if price is None:
+            sku_label = None
+            if price is None and cfg.get("used_box_fallback"):
+                offer = fetch_used_box_price(pid)
+                if offer is not None:
+                    price, sku_label = offer
+            if price is None or not (0 < price < float("inf")):
                 missing.append(pid)
                 without_price.append(pid)
                 continue
@@ -250,6 +281,7 @@ def main() -> int:
                 "baseline": cfg["baseline"],
                 "cate_id": raw.get("cate_id"),
                 "raw": {k: raw.get(k) for k in ("id", "store_name", "price", "cate_id")},
+                **({"price_source": "storefront_sku", "sku_label": sku_label} if sku_label else {}),
             })
         if not items:
             if without_price:
