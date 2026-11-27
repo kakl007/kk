@@ -1,10 +1,8 @@
 {
-  "fetched_at": "2026-11-27T13:23:10+08:00",
+  "fetched_at": "2026-11-27T13:41:29+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
-    737,
-    743,
     778,
     789,
     2183,
@@ -18,5 +16,5 @@
     2617
   ],
   "status": "error",
-  "error": "RuntimeError: direct=ConnectionError:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) | resolve(121.196.100.254)=CalledProcessError:Command '['curl', '-fsSL', '--connect-timeout', '12', '--max-time', '30', '--retry', '2', '--retry-delay', '1', '--resolve', 'hailuo.dwzjd.com:443:121.196.100.254', '-H', 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/138 Safari/537.36', '-H', 'Accept: application/json,text/plain,*/*', '-H', 'Referer: https://hailuo.dwzjd.com/', 'https://hailuo.dwzjd.com/api/products?limit=300&page=1']' returned non-zero exit status 92."
+  "error": "RuntimeError: direct=ConnectionError:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) | resolve(121.196.100.254,default)=curl 92: curl: (92) HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1) | resolve(121.196.100.254,http1.1)=curl 56: curl: (56) OpenSSL SSL_read: OpenSSL/3.5.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0"
 }
