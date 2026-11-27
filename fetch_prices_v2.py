@@ -3,8 +3,6 @@ import fetch_prices as monitor
 
 # Active monitoring set. Removed products are not fetched or written to new history.
 monitor.TARGETS = {
-    743: {"name": "PS5 GT赛车7", "baseline": 246},
-    737: {"name": "PS5 死亡搁浅2", "baseline": 234},
     789: {"name": "PS5 巫师3年度版", "baseline": 145},
     2183: {"name": "PS5 红色沙漠", "baseline": 454},
     2232: {"name": "PS5 卡普空大作9/安魂曲", "baseline": 305},

@@ -103,12 +103,23 @@ def fetch_text(url: str) -> str:
             "-H", f"Referer: {HEADERS['Referer']}",
             url,
         ]
-        try:
-            p = subprocess.run(cmd, check=True, capture_output=True, text=True)
-            if p.stdout.strip():
-                return p.stdout
-        except Exception as e:
-            errors.append(f"resolve({ip})={type(e).__name__}:{e}")
+        for protocol in ("default", "http1.1"):
+            args = cmd if protocol == "default" else [cmd[0], "--http1.1", *cmd[1:]]
+            try:
+                p = subprocess.run(args, check=True, capture_output=True, text=True)
+            except subprocess.CalledProcessError as e:
+                detail = (e.stderr or "").strip()[-400:]
+                errors.append(f"resolve({ip},{protocol})=curl {e.returncode}: {detail}")
+                # HTTP/2 framing and stream errors can recover over HTTP/1.1.
+                if protocol == "default" and e.returncode in (16, 92):
+                    continue
+            except OSError as e:
+                errors.append(f"resolve({ip},{protocol})={type(e).__name__}:{e}")
+            else:
+                if p.stdout.strip():
+                    return p.stdout
+                errors.append(f"resolve({ip},{protocol})=empty response")
+            break
     raise RuntimeError(" | ".join(errors))
 
 
@@ -220,6 +231,7 @@ def main() -> int:
         all_by_id, meta = fetch_all()
         items = []
         missing = []
+        without_price = []
         for pid, cfg in TARGETS.items():
             raw = all_by_id.get(pid)
             if raw is None:
@@ -228,6 +240,7 @@ def main() -> int:
             price = parse_price(raw.get("price"))
             if price is None:
                 missing.append(pid)
+                without_price.append(pid)
                 continue
             items.append({
                 "id": pid,
@@ -239,7 +252,14 @@ def main() -> int:
                 "raw": {k: raw.get(k) for k in ("id", "store_name", "price", "cate_id")},
             })
         if not items:
-            raise RuntimeError(f"API parsed but none of the target IDs were found; meta={meta}")
+            if without_price:
+                raise RuntimeError(
+                    f"API returned no usable prices for target IDs {sorted(without_price)}; "
+                    f"target IDs absent from catalog: {sorted(set(missing) - set(without_price))}"
+                )
+            raise RuntimeError(
+                f"No target IDs found in {meta['total_unique_ids']} catalog products"
+            )
 
         history = update_history(items, fetched_at)
         for item in items:
