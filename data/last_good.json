@@ -1,10 +1,8 @@
 {
-  "fetched_at": "2026-11-26T13:28:22+08:00",
+  "fetched_at": "2026-11-27T13:43:06+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
-    737,
-    743,
     778,
     789,
     2183,
@@ -20,38 +18,6 @@
   "status": "ok",
   "items": [
     {
-      "id": 737,
-      "target_name": "PS5 死亡搁浅2",
-      "store_name": "PS5 死亡搁浅2",
-      "price": 122.0,
-      "baseline": 234,
-      "cate_id": "3",
-      "raw": {
-        "id": 737,
-        "store_name": "PS5 死亡搁浅2",
-        "price": 122,
-        "cate_id": "3"
-      },
-      "known_low": 122.0,
-      "cumulative_change": 112.0
-    },
-    {
-      "id": 743,
-      "target_name": "PS5 GT赛车7",
-      "store_name": "PS5 GT赛车7",
-      "price": 199.0,
-      "baseline": 246,
-      "cate_id": "3",
-      "raw": {
-        "id": 743,
-        "store_name": "PS5 GT赛车7",
-        "price": 199,
-        "cate_id": "3"
-      },
-      "known_low": 199.0,
-      "cumulative_change": 47.0
-    },
-    {
       "id": 778,
       "target_name": "PS5 龙之信条2",
       "store_name": "PS5 龙之信条2",
@@ -61,9 +27,11 @@
       "raw": {
         "id": 778,
         "store_name": "PS5 龙之信条2",
-        "price": 84,
+        "price": null,
         "cate_id": "3"
       },
+      "price_source": "storefront_sku",
+      "sku_label": "简体中文,二手盒装",
       "known_low": 84.0,
       "cumulative_change": 54.0
     },
@@ -71,17 +39,19 @@
       "id": 789,
       "target_name": "PS5 巫师3年度版",
       "store_name": "PS5 巫师3年度版",
-      "price": 114.0,
+      "price": 109.0,
       "baseline": 145,
       "cate_id": "3",
       "raw": {
         "id": 789,
         "store_name": "PS5 巫师3年度版",
-        "price": 114,
+        "price": null,
         "cate_id": "3"
       },
-      "known_low": 114.0,
-      "cumulative_change": 31.0
+      "price_source": "storefront_sku",
+      "sku_label": "简体中文,二手盒装",
+      "known_low": 109.0,
+      "cumulative_change": 36.0
     },
     {
       "id": 2183,
@@ -93,9 +63,11 @@
       "raw": {
         "id": 2183,
         "store_name": "PS5 红色沙漠",
-        "price": 239,
+        "price": null,
         "cate_id": "3"
       },
+      "price_source": "storefront_sku",
+      "sku_label": "简体中文,二手盒装",
       "known_low": 220.0,
       "cumulative_change": 215.0
     },
@@ -109,9 +81,11 @@
       "raw": {
         "id": 2232,
         "store_name": "PS5 卡普空大作9 安魂曲（特）",
-        "price": 260,
+        "price": null,
         "cate_id": "3"
       },
+      "price_source": "storefront_sku",
+      "sku_label": "中文,二手盒装（版本随机）",
       "known_low": 260.0,
       "cumulative_change": 45.0
     },
@@ -119,17 +93,19 @@
       "id": 2453,
       "target_name": "NS2 艾尔登法环 褪色者版",
       "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-      "price": 340.0,
+      "price": 334.0,
       "baseline": 453,
       "cate_id": "41",
       "raw": {
         "id": 2453,
         "store_name": "NS2 老头环 艾尔登法环 褪色者版",
-        "price": 340,
+        "price": null,
         "cate_id": "41"
       },
-      "known_low": 340.0,
-      "cumulative_change": 113.0
+      "price_source": "storefront_sku",
+      "sku_label": "中文,二手盒装 现货即发",
+      "known_low": 334.0,
+      "cumulative_change": 119.0
     },
     {
       "id": 2454,
@@ -141,9 +117,11 @@
       "raw": {
         "id": 2454,
         "store_name": "PS5 漫威金刚狼",
-        "price": 174,
+        "price": null,
         "cate_id": "3"
       },
+      "price_source": "storefront_sku",
+      "sku_label": "简体中文,二手盒装 现货 顺丰快递",
       "known_low": 169.0,
       "cumulative_change": 55.0
     },
@@ -151,17 +129,19 @@
       "id": 2457,
       "target_name": "PS5 鬼武者 剑之道",
       "store_name": "PS5 鬼武者 剑之道",
-      "price": 175.0,
+      "price": 180.0,
       "baseline": 245,
       "cate_id": "3",
       "raw": {
         "id": 2457,
         "store_name": "PS5 鬼武者 剑之道",
-        "price": 175,
+        "price": null,
         "cate_id": "3"
       },
+      "price_source": "storefront_sku",
+      "sku_label": "简体中文,二手盒装 现货即发",
       "known_low": 175.0,
-      "cumulative_change": 70.0
+      "cumulative_change": 65.0
     },
     {
       "id": 2464,
@@ -173,9 +153,11 @@
       "raw": {
         "id": 2464,
         "store_name": "NS2 火焰纹章 万紫千红",
-        "price": 318,
+        "price": null,
         "cate_id": "41"
       },
+      "price_source": "storefront_sku",
+      "sku_label": "中文,二手盒装 现货 顺丰快递",
       "known_low": 318.0,
       "cumulative_change": 62.0
     },
@@ -183,49 +165,55 @@
       "id": 2542,
       "target_name": "NS2 最终幻想 共鸣（订购）",
       "store_name": "NS2 最终幻想 共鸣",
-      "price": 260.0,
+      "price": 255.0,
       "baseline": 299,
       "cate_id": "41",
       "raw": {
         "id": 2542,
         "store_name": "NS2 最终幻想 共鸣",
-        "price": 260,
+        "price": null,
         "cate_id": "41"
       },
-      "known_low": 260.0,
-      "cumulative_change": 39.0
+      "price_source": "storefront_sku",
+      "sku_label": "中文,二手盒装",
+      "known_low": 255.0,
+      "cumulative_change": 44.0
     },
     {
       "id": 2543,
       "target_name": "PS5 致命躯壳2",
       "store_name": "PS5 致命躯壳2",
-      "price": 209.0,
+      "price": 200.0,
       "baseline": 279,
       "cate_id": "3",
       "raw": {
         "id": 2543,
         "store_name": "PS5 致命躯壳2",
-        "price": 209,
+        "price": null,
         "cate_id": "3"
       },
-      "known_low": 209.0,
-      "cumulative_change": 70.0
+      "price_source": "storefront_sku",
+      "sku_label": "简体中文,二手盒装",
+      "known_low": 200.0,
+      "cumulative_change": 79.0
     },
     {
       "id": 2617,
       "target_name": "NS2 龙之信条2 黑暗再临",
       "store_name": "NS2 龙之信条2 黑暗再临",
-      "price": 239.0,
+      "price": 234.0,
       "baseline": 249,
       "cate_id": "41",
       "raw": {
         "id": 2617,
         "store_name": "NS2 龙之信条2 黑暗再临",
-        "price": 239,
+        "price": null,
         "cate_id": "41"
       },
-      "known_low": 239.0,
-      "cumulative_change": 10.0
+      "price_source": "storefront_sku",
+      "sku_label": "中文,二手盒装",
+      "known_low": 234.0,
+      "cumulative_change": 15.0
     }
   ],
   "missing_ids": [],
