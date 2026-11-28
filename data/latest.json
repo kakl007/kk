@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-28T16:01:06+08:00",
+  "fetched_at": "2026-11-28T16:05:58+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://hailuo.dwzjd.com/api/products?limit=300&page=N",
   "target_ids": [
@@ -16,5 +16,18 @@
     2617
   ],
   "status": "error",
+  "missing_ids": [
+    778,
+    789,
+    2183,
+    2232,
+    2453,
+    2454,
+    2457,
+    2464,
+    2542,
+    2543,
+    2617
+  ],
   "error": "RuntimeError: direct=ConnectionError:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) | resolve(121.196.100.254,default)=curl 92: curl: (92) HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1) | resolve(121.196.100.254,http1.1)=curl 56: curl: (56) OpenSSL SSL_read: OpenSSL/3.5.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0"
 }
