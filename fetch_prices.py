@@ -174,6 +174,7 @@ def fetch_used_box_price(pid: int) -> tuple[float, str] | None:
         raise RuntimeError(f"Invalid product detail for {pid}")
 
     offers = []
+    price_errors = []
     for label, sku in (data.get("productValue") or {}).items():
         if "二手盒装" not in label or parse_id(sku.get("product_id")) != pid:
             continue
@@ -181,13 +182,18 @@ def fetch_used_box_price(pid: int) -> tuple[float, str] | None:
         if parse_id(sku.get("is_show")) != 1 or stock is None or stock <= 0:
             continue
         unique = sku.get("unique")
-        if not isinstance(unique, str) or not unique:
-            raise RuntimeError(f"Missing SKU identifier for product {pid}")
-        response = json.loads(fetch_text(f"{PRODUCT_API}/real_price/{pid}/{quote(unique, safe='')}"))
-        price = parse_price((response.get("data") or {}).get("price"))
-        if response.get("status") != 200 or price is None or not (0 < price < float("inf")):
-            raise RuntimeError(f"Invalid storefront SKU price for product {pid}")
-        offers.append((price, label))
+        try:
+            if not isinstance(unique, str) or not unique:
+                raise RuntimeError(f"Missing SKU identifier for product {pid}")
+            response = json.loads(fetch_text(f"{PRODUCT_API}/real_price/{pid}/{quote(unique, safe='')}"))
+            price = parse_price((response.get("data") or {}).get("price"))
+            if response.get("status") != 200 or price is None or not (0 < price < float("inf")):
+                raise RuntimeError(f"SKU response status={response.get('status')}; missing or invalid price")
+            offers.append((price, label))
+        except Exception as exc:
+            price_errors.append(str(exc))
+    if not offers and price_errors:
+        raise RuntimeError(f"Product {pid}: no valid storefront SKU price; " + " | ".join(price_errors))
     return min(offers, default=None)
 
 
@@ -258,6 +264,7 @@ def main() -> int:
         items = []
         missing = []
         without_price = []
+        price_errors = {}
         for pid, cfg in TARGETS.items():
             raw = all_by_id.get(pid)
             if raw is None:
@@ -266,9 +273,12 @@ def main() -> int:
             price = parse_price(raw.get("price"))
             sku_label = None
             if price is None and cfg.get("used_box_fallback"):
-                offer = fetch_used_box_price(pid)
-                if offer is not None:
-                    price, sku_label = offer
+                try:
+                    offer = fetch_used_box_price(pid)
+                    if offer is not None:
+                        price, sku_label = offer
+                except Exception as exc:
+                    price_errors[str(pid)] = f"{type(exc).__name__}: {exc}"
             if price is None or not (0 < price < float("inf")):
                 missing.append(pid)
                 without_price.append(pid)
@@ -283,6 +293,10 @@ def main() -> int:
                 "raw": {k: raw.get(k) for k in ("id", "store_name", "price", "cate_id")},
                 **({"price_source": "storefront_sku", "sku_label": sku_label} if sku_label else {}),
             })
+        base["missing_ids"] = sorted(missing)
+        base["fetch_meta"] = meta
+        if price_errors:
+            base["price_errors"] = price_errors
         if not items:
             if without_price:
                 raise RuntimeError(
@@ -310,7 +324,7 @@ def main() -> int:
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
     except Exception as e:
-        error = {**base, "status": "error", "error": f"{type(e).__name__}: {e}"}
+        error = {**base, "status": "error", "missing_ids": base.get("missing_ids", sorted(TARGETS)), "error": f"{type(e).__name__}: {e}"}
         json_dump(LATEST, error)
         print(json.dumps(error, ensure_ascii=False, indent=2), file=sys.stderr)
         return 1
